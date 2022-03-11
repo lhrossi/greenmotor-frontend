@@ -1,39 +1,31 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
-import Banner from '../components/HomeOne/Banner';
-import FeaturedServices from '../components/HomeOne/FeaturedServices';
-import PartnerSlider from '../components/Common/Partner/PartnerSlider';
-import OurServices from '../components/HomeOne/OurServices';
-import OurFeaturesTab from '../components/Common/OurFeaturesTab';
+import BannerSlider from '../components/HomeEight/BannerSlider';
+import FeaturedSolutions from '../components/HomeEight/FeaturedSolutions';
+import AboutUs from '../components/HomeEight/AboutUs';
+import Services from '../components/HomeEight/Services';
+import Projects from '../components/HomeEight/Projects';
 import FunFacts from '../components/Common/FunFacts';
-import ProjectGallerySlider from '../components/Common/ProjectGallerySlider';
-import OurTeam from '../components/Common/OurTeam';
-import Solution from '../components/Common/Solution';
-import Testimonials from '../components/Common/Testimonials';
-import Pricing from '../components/Common/Pricing';
-import SubscribeFluid from '../components/Common/SubscribeFluid';
-import LatestNews from '../components/Common/LatestNews';
+import TestimonialsTwo from '../components/Common/TestimonialsTwo';
+import PricingStyleFour from '../components/Pricing/PricingStyleFour';
+import OurTeamTwo from '../components/Common/OurTeamTwo';
+import Faq from '../components/HomeSeven/Faq';
+import Clients from '../components/HomeSeven/Clients';
+import RecentStory from '../components/HomeEight/RecentStory';
+import FreeTrial from '../components/HomeEight/FreeTrial';
 import Footer from '../components/Layout/Footer';
 
 class Index extends Component {
     render() {
         return (
-            <> 
+            <>
                 <Navbar />
-                <Banner />
-                <FeaturedServices />
-                <PartnerSlider />
-                <OurServices />
-                <OurFeaturesTab />
+                <BannerSlider />
+                <FeaturedSolutions />
                 <FunFacts />
-                <ProjectGallerySlider />
-                <OurTeam />
-                <Solution />
-                <Testimonials />
-                <Pricing />
-                <SubscribeFluid />
-                <LatestNews />
-                <Footer />
+                <FreeTrial />
+                <Clients />
+                <Footer/> 
             </>
         );
     }
