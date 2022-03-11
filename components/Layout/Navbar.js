@@ -87,85 +87,7 @@ class Navbar extends Component {
 
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
-                                        <li className="nav-item">
-                                            <Link href="#" activeClassName="active">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Home <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
 
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/" activeClassName="active">
-                                                        <a className="nav-link">Home One</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index2" activeClassName="active">
-                                                        <a className="nav-link">Home Two</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index3" activeClassName="active">
-                                                        <a className="nav-link">Home Three</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index4" activeClassName="active">
-                                                        <a className="nav-link">Home Four</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index5" activeClassName="active">
-                                                        <a className="nav-link">
-                                                            Home Five 
-                                                            <span className="new">New</span>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index6" activeClassName="active">
-                                                        <a className="nav-link">
-                                                            Home Six 
-                                                            <span className="new">New</span>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index7" activeClassName="active">
-                                                        <a className="nav-link">
-                                                            Home Seven 
-                                                            <span className="new">New</span>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index8" activeClassName="active">
-                                                        <a className="nav-link">
-                                                            Home Eight 
-                                                            <span className="new">New</span>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/index9" activeClassName="active">
-                                                        <a className="nav-link">
-                                                            Home Nine 
-                                                            <span className="new">New</span>
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-  
                                         <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -303,26 +225,6 @@ class Navbar extends Component {
                                             </ul>
                                         </li>
 
-                                        <li className="nav-item">
-                                            <Link href="#" activeClassName="active">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Shop <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-                                            
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/shop" activeClassName="active">
-                                                        <a className="nav-link">Shop</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/single-product" activeClassName="active">
-                                                        <a className="nav-link">Single product</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
 
                                         <li className="nav-item">
                                             <Link href="#">
@@ -355,54 +257,6 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
                                     </ul>
-                                </div>
-
-                                <div className="others-options">
-                                    <div className="cart-items">
-                                        <Link href="/cart">
-                                            <a>
-                                                <i className="fas fa-shopping-cart"></i> 
-                                                <span>{products.length}</span>
-                                            </a>
-                                        </Link>
-                                    </div>
-
-                                    <div className="option-item">
-                                        <i 
-                                            onClick={this.handleSearchForm} 
-                                            className="search-btn flaticon-search"
-                                            style={{
-                                                display: this.state.searchForm ? 'none' : 'block'
-                                            }}
-                                        ></i>
-
-                                        <i 
-                                            onClick={this.handleSearchForm} 
-                                            className={`close-btn flaticon-close ${this.state.searchForm ? 'active' : ''}`}
-                                        ></i>
-                                        
-                                        <div 
-                                            className="search-overlay search-popup"
-                                            style={{
-                                                display: this.state.searchForm ? 'block' : 'none'
-                                            }}
-                                        >
-                                            <div className='search-box'>
-                                                <form className="search-form">
-                                                    <input className="search-input" name="search" placeholder="Search" type="text" />
-                                                    <button className="search-button" type="submit">
-                                                        <i className="fas fa-search"></i>
-                                                    </button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="burger-menu" onClick={this.toggleModal}>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
                                 </div>
                             </nav>
                         </div>
