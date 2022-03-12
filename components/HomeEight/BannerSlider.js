@@ -6,6 +6,16 @@ const OwlCarousel = dynamic(import('react-owl-carousel3'));
 const ModalVideo = dynamic(() => import('react-modal-video'), {
     ssr: false
 });
+import Image from 'next/image';
+import Shape2 from '../../images/shape/shape2.svg';
+import Shape3 from '../../images/shape/shape3.svg';
+import Shape4 from '../../images/shape/shape4.png';
+import Shape5 from '../../images/shape/shape5.png';
+import Shape6 from '../../images/shape/shape6.png';
+import Shape7 from '../../images/shape/shape7.png';
+import Shape8 from '../../images/shape/shape8.png';
+import Shape9 from '../../images/shape/shape9.png';
+import Shape10 from '../../images/shape/shape10.png';
 
 const options = {
     items: 1,
@@ -27,12 +37,12 @@ class BannerSlider extends Component {
 
     _isMounted = false;
     state = {
-        display:false
+        display: false
     }
 
-    componentDidMount(){ 
+    componentDidMount() {
         this._isMounted = true;
-        this.setState({ display: true }) 
+        this.setState({ display: true })
     }
 
     componentWillUnmount() {
@@ -45,21 +55,21 @@ class BannerSlider extends Component {
     };
 
     openModal = () => {
-        this.setState({isOpen: true})
+        this.setState({ isOpen: true })
     };
 
     render() {
         return (
             <>
                 {/* If you want change the video need to update below videoID */}
-                <ModalVideo 
-                    channel='youtube' 
-                    isOpen={this.state.isOpen} 
-                    videoId='szuchBiLrEM' 
-                    onClose={() => this.setState({isOpen: false})} 
+                <ModalVideo
+                    channel='youtube'
+                    isOpen={this.state.isOpen}
+                    videoId='szuchBiLrEM'
+                    onClose={() => this.setState({ isOpen: false })}
                 />
 
-                {this.state.display ? <OwlCarousel 
+                {this.state.display ? <OwlCarousel
                     className="machine-learning-slider owl-carousel owl-theme"
                     {...options}
                 >
@@ -73,8 +83,8 @@ class BannerSlider extends Component {
                                                 {({ isVisible }) => (
                                                     <div className="banner-content">
                                                         <h1
-                                                        className={
-                                                            isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
+                                                            className={
+                                                                isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                             }
                                                         >
                                                             World’s Leading AI & Machine Learning Company
@@ -87,8 +97,8 @@ class BannerSlider extends Component {
                                                         >
                                                             ML today are able to supply needful of help, information, and positive experience of maintaining intimacy with customers. Eventually, chatbot ideas bring a pleasant experience of all these qualities into the conversation.
                                                         </p>
-                                                        
-                                                        <div 
+
+                                                        <div
                                                             className={
                                                                 `banner-btn ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                             }
@@ -114,9 +124,9 @@ class BannerSlider extends Component {
                                             <div className="ml-video">
                                                 <div className="solution-video">
                                                     <div
-                                                        onClick={e => {e.preventDefault(); this.openModal()}}
+                                                        onClick={e => { e.preventDefault(); this.openModal() }}
                                                         className="video-btn popup-youtube"
-                                                    > 
+                                                    >
                                                         <i className="flaticon-play-button"></i>
                                                     </div>
                                                 </div>
@@ -126,34 +136,34 @@ class BannerSlider extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* Shape Images */}
                         <div className="shape-img2">
-                            <img src="/images/shape/shape2.svg" alt="image" />
+                            <Image src={Shape2} alt="" />
                         </div>
                         <div className="shape-img3">
-                            <img src="/images/shape/shape3.svg" alt="image" />
+                            <Image src={Shape3} alt="" />
                         </div>
                         <div className="shape-img4">
-                            <img src="/images/shape/shape4.png" alt="image" />
+                            <Image src={Shape4} alt="" />
                         </div>
                         <div className="shape-img5">
-                            <img src="/images/shape/shape5.png" alt="image" />
+                            <Image src={Shape5} alt="" />
                         </div>
                         <div className="shape-img6">
-                            <img src="/images/shape/shape6.png" alt="image" />
+                            <Image src={Shape6} alt="" />
                         </div>
                         <div className="shape-img7">
-                            <img src="/images/shape/shape7.png" alt="image" />
+                            <Image src={Shape7} alt="" />
                         </div>
                         <div className="shape-img8">
-                            <img src="/images/shape/shape8.png" alt="image" />
+                            <Image src={Shape8} alt="" />
                         </div>
                         <div className="shape-img9">
-                            <img src="/images/shape/shape9.png" alt="image" />
+                            <Image src={Shape9} alt="" />
                         </div>
                         <div className="shape-img10">
-                            <img src="/images/shape/shape10.png" alt="image" />
+                            <Image src={Shape10} alt="" />
                         </div>
                     </div>
 
@@ -167,8 +177,8 @@ class BannerSlider extends Component {
                                                 {({ isVisible }) => (
                                                     <div className="banner-content">
                                                         <h1
-                                                        className={
-                                                            isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
+                                                            className={
+                                                                isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                             }
                                                         >
                                                             Machine Learning Models For Business Process
@@ -180,8 +190,8 @@ class BannerSlider extends Component {
                                                         >
                                                             ML today are able to supply needful of help, information, and positive experience of maintaining intimacy with customers. Eventually, chatbot ideas bring a pleasant experience of all these qualities into the conversation.
                                                         </p>
-                                                        
-                                                        <div 
+
+                                                        <div
                                                             className={
                                                                 `banner-btn ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                             }
@@ -207,9 +217,9 @@ class BannerSlider extends Component {
                                             <div className="ml-video">
                                                 <div className="solution-video">
                                                     <div
-                                                        onClick={e => {e.preventDefault(); this.openModal()}}
+                                                        onClick={e => { e.preventDefault(); this.openModal() }}
                                                         className="video-btn popup-youtube"
-                                                    > 
+                                                    >
                                                         <i className="flaticon-play-button"></i>
                                                     </div>
                                                 </div>
@@ -219,34 +229,34 @@ class BannerSlider extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* Shape Images */}
                         <div className="shape-img2">
-                            <img src="/images/shape/shape2.svg" alt="image" />
+                            <Image src={Shape2} alt="" />
                         </div>
                         <div className="shape-img3">
-                            <img src="/images/shape/shape3.svg" alt="image" />
+                            <Image src={Shape3} alt="" />
                         </div>
                         <div className="shape-img4">
-                            <img src="/images/shape/shape4.png" alt="image" />
+                            <Image src={Shape4} alt="" />
                         </div>
                         <div className="shape-img5">
-                            <img src="/images/shape/shape5.png" alt="image" />
+                            <Image src={Shape5} alt="" />
                         </div>
                         <div className="shape-img6">
-                            <img src="/images/shape/shape6.png" alt="image" />
+                            <Image src={Shape6} alt="" />
                         </div>
                         <div className="shape-img7">
-                            <img src="/images/shape/shape7.png" alt="image" />
+                            <Image src={Shape7} alt="" />
                         </div>
                         <div className="shape-img8">
-                            <img src="/images/shape/shape8.png" alt="image" />
+                            <Image src={Shape8} alt="" />
                         </div>
                         <div className="shape-img9">
-                            <img src="/images/shape/shape9.png" alt="image" />
+                            <Image src={Shape9} alt="" />
                         </div>
                         <div className="shape-img10">
-                            <img src="/images/shape/shape10.png" alt="image" />
+                            <Image src={Shape10} alt="" />
                         </div>
                     </div>
 
@@ -260,8 +270,8 @@ class BannerSlider extends Component {
                                                 {({ isVisible }) => (
                                                     <div className="banner-content">
                                                         <h1
-                                                        className={
-                                                            isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
+                                                            className={
+                                                                isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                             }
                                                         >
                                                             Use Machine Learning To Augment Your Business Process
@@ -273,8 +283,8 @@ class BannerSlider extends Component {
                                                         >
                                                             ML today are able to supply needful of help, information, and positive experience of maintaining intimacy with customers. Eventually, chatbot ideas bring a pleasant experience of all these qualities into the conversation.
                                                         </p>
-                                                        
-                                                        <div 
+
+                                                        <div
                                                             className={
                                                                 `banner-btn ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                             }
@@ -300,9 +310,9 @@ class BannerSlider extends Component {
                                             <div className="ml-video">
                                                 <div className="solution-video">
                                                     <div
-                                                        onClick={e => {e.preventDefault(); this.openModal()}}
+                                                        onClick={e => { e.preventDefault(); this.openModal() }}
                                                         className="video-btn popup-youtube"
-                                                    > 
+                                                    >
                                                         <i className="flaticon-play-button"></i>
                                                     </div>
                                                 </div>
@@ -312,34 +322,34 @@ class BannerSlider extends Component {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* Shape Images */}
                         <div className="shape-img2">
-                            <img src="/images/shape/shape2.svg" alt="image" />
+                            <Image src={Shape2} alt="" />
                         </div>
                         <div className="shape-img3">
-                            <img src="/images/shape/shape3.svg" alt="image" />
+                            <Image src={Shape3} alt="" />
                         </div>
                         <div className="shape-img4">
-                            <img src="/images/shape/shape4.png" alt="image" />
+                            <Image src={Shape4} alt="" />
                         </div>
                         <div className="shape-img5">
-                            <img src="/images/shape/shape5.png" alt="image" />
+                            <Image src={Shape5} alt="" />
                         </div>
                         <div className="shape-img6">
-                            <img src="/images/shape/shape6.png" alt="image" />
+                            <Image src={Shape6} alt="" />
                         </div>
                         <div className="shape-img7">
-                            <img src="/images/shape/shape7.png" alt="image" />
+                            <Image src={Shape7} alt="" />
                         </div>
                         <div className="shape-img8">
-                            <img src="/images/shape/shape8.png" alt="image" />
+                            <Image src={Shape8} alt="" />
                         </div>
                         <div className="shape-img9">
-                            <img src="/images/shape/shape9.png" alt="image" />
+                            <Image src={Shape9} alt="" />
                         </div>
                         <div className="shape-img10">
-                            <img src="/images/shape/shape10.png" alt="image" />
+                            <Image src={Shape10} alt="" />
                         </div>
                     </div>
                 </OwlCarousel> : ''}
