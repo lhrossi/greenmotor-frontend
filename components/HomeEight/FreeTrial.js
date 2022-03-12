@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Image from 'next/image';
+import FreeTrialImage from '../../images/machine-learning/free-trial-img.png';
 
 class FreeTrial extends Component {
     render() {
@@ -8,7 +10,7 @@ class FreeTrial extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="ft-img">
-                                <img src="/images/machine-learning/free-trial-img.png" alt="Image" />
+                                <Image src={FreeTrialImage} alt="Free trial image" />
                             </div>
                         </div>
 
