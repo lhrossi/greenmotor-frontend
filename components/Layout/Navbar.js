@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Link from '../../utils/ActiveLink';
 import SidebarModal from '../SidebarModal/SidebarModal';
+import Image from 'next/image'
+import LogoImage from '../../images/logo.png'
 
 class Navbar extends Component {
 
@@ -67,7 +69,8 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <img src="/images/logo.png" alt="logo" />
+                                        <Image src={LogoImage} alt="Logo" />
+                                        {/* {console.log(LogoImage)} */}
                                     </a>
                                 </Link>
 

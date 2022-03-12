@@ -7,9 +7,9 @@
         "build": "next build",
         "start": "NODE_ENV=production node server.js -p $PORT"
     },
-    "author": "EnvyTheme.com",
+    "author": "Derickson Loss IT",
     "license": "ISC",
-    "description": "Taiker - React Next IT Startups & SEO Agency Template",
+    "description": "Greenmotor AI",
     "dependencies": {
         "@babel/runtime-corejs2": "^7.16.3",
         "axios": "^0.19.2",
