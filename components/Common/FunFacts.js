@@ -35,7 +35,7 @@ class FunFacts extends Component {
                                                     start={0}
                                                     end={
                                                         this.state.didViewCountUp
-                                                        ? 324
+                                                        ? 150
                                                         : 0
                                                     }
                                                     duration={3}
@@ -44,8 +44,8 @@ class FunFacts extends Component {
                                         </span>
                                         <span className="sign-icon">+</span>
                                     </h3>
-                                    <p>Project Completed</p>
-                                    <div className="back-text">P</div>
+                                    <p>SKUs Analisados</p>
+                                    <div className="back-text">S</div>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@ class FunFacts extends Component {
                                                     start={0}
                                                     end={
                                                         this.state.didViewCountUp
-                                                        ? 100
+                                                        ? 75
                                                         : 0
                                                     }
                                                     duration={3}
@@ -73,7 +73,7 @@ class FunFacts extends Component {
                                         </span>
                                         <span className="sign-icon">%</span>
                                     </h3>
-                                    <p>Client Satisfaction</p>
+                                    <p>Redução de perdas</p>
                                     <div className="back-text">C</div>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@ class FunFacts extends Component {
                                             </VisibilitySensor>
                                         </span>
                                     </h3>
-                                    <p>Awards</p>
+                                    <p>Cases de sucesso</p>
                                     <div className="back-text">A</div>
                                 </div>
                             </div>
@@ -121,16 +121,16 @@ class FunFacts extends Component {
                                                     start={0}
                                                     end={
                                                         this.state.didViewCountUp
-                                                        ? 48
+                                                        ? 160
                                                         : 0
                                                     }
                                                     duration={3}
                                                 />
                                             </VisibilitySensor>
                                         </span>
-                                        <span className="sign-icon">+</span>
+                                        <span className="sign-icon">%</span>
                                     </h3>
-                                    <p>Expert Members</p>
+                                    <p>Retorno do Investimento</p>
                                     <div className="back-text">E</div>
                                 </div>
                             </div>
