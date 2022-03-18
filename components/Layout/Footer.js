@@ -19,55 +19,29 @@ class Footer extends Component {
                                             <span>Ficou com alguma dúvida?</span>
                                             <a href="mailto:example@taiker.com">contato@greenmotor.ai</a>
                                         </li>
-                                        <li>
-                                            <i className="flaticon-social-media"></i>
-                                            <span>Redes Sociais</span>
-
-                                            <ul className="social">
-                                                <li>
-                                                    <a href="https://twitter.com/" target="_blank"><i className="fab fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.linkedin.com/" target="_blank"><i className="fab fa-linkedin"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget pl-5">
-                                    <h3>Links Rápidos</h3>
+                                    <h3>Acesso rápido</h3>
 
                                     <ul className="footer-quick-links">
                                         <li>
                                             <Link href="/">
-                                                <a>Home</a>
+                                                <a>O Que Fazemos</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/about2">
-                                                <a>Sobre</a>
+                                                <a>Quem Somos</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/contact">
                                                 <a>Contato</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/team">
-                                                <a>O Time</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -80,6 +54,9 @@ class Footer extends Component {
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <p>
                                         Feito com 💖 por <a href="https://github.com/DericksonLossIT" target="_blank">Derickson Loss</a>
+                                    </p>
+                                    <p>
+                                        Todos os direitos reservados a Greenmotor, {currentYear}
                                     </p>
                                 </div>
 
