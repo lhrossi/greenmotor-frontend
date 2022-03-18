@@ -7,9 +7,9 @@ class FeaturedSolutions extends Component {
             <section className="pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <span className="sub-title">What We Offer</span>
-                        <h2>Our Featured Solutions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <span className="sub-title">O que oferecemos</span>
+                        <h2>Nossos diferenciais</h2>
+                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> */}
                     </div>
 
                     <div className="row">
@@ -18,12 +18,12 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bxs-analyse'></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Robotic Automation</a>
+                                        <a>Extração de Dados</a>
                                     </Link>
                                 </h3>
-                                <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <p>Integramos com os seus sistemas de gestão empresarial e de estoque</p>
                                 <Link href="/service-details">
-                                    <a className="read-more">Discover More</a>
+                                    <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
                         </div>
@@ -33,12 +33,12 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-shape-circle'></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Cognitive Automation</a>
+                                        <a>Fácil Visualização</a>
                                     </Link>
                                 </h3>
-                                <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <p>Tenha insights mais rápido com nossos dashboards personalizados</p>
                                 <Link href="/service-details">
-                                    <a className="read-more">Discover More</a>
+                                    <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
                         </div>
@@ -48,12 +48,12 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-badge-check'></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Security & Surveillance</a>
+                                        <a>Previsão de Vendas</a>
                                     </Link>
                                 </h3>
-                                <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <p>Tenha uma maior assertividade sobre <b>quando</b> e <b>quanto</b> comprar </p>
                                 <Link href="/service-details">
-                                    <a className="read-more">Discover More</a>
+                                    <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
                         </div>
@@ -63,12 +63,12 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-layer'></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Cognitive Engagement</a>
+                                        <a>Modelos de IA sofisticados</a>
                                     </Link>
                                 </h3>
-                                <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                                <p>Aproveite ao máximo cada informação já disponível nos seus sistemas</p>
                                 <Link href="/service-details">
-                                    <a className="read-more">Discover More</a>
+                                    <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
                         </div>
