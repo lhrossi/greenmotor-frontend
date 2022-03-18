@@ -386,7 +386,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #0000ff;
+  background: #13FF00;
   -webkit-transition: .9s;
   transition: .9s;
 }
