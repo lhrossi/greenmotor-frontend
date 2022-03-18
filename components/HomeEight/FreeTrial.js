@@ -16,15 +16,15 @@ class FreeTrial extends Component {
 
                         <div className="col-lg-6">
                             <div className="subscribe-content">
-                                <span className="sub-title">Get Started Instantly!</span>
-                                <h2>Start your free trial</h2>
+                                <span className="sub-title">Ficou com dúvidas?</span>
+                                <h2>Agende uma demonstração gratuita</h2>
         
                                 <form className="newsletter-form">
-                                    <input type="email" className="input-newsletter" placeholder="Enter your email" name="email" />
-                                    <button type="submit">Sign Up Free</button>
+                                    <input type="email" className="input-newsletter" placeholder="Insira seu e-mail" name="email" />
+                                    <button type="submit">Marcar uma demonstração</button>
                                 </form>
 
-                                <p className="help-text">Test out the Machine Learning features for 14 days, no credit card required.</p>
+                                <p className="help-text">Teste nossa Inteligência Artificial por 15 dias gratuitos.</p>
                             </div>
                         </div>
                     </div>
