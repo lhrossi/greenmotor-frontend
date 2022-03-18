@@ -110,7 +110,7 @@ class Navbar extends Component {
 
 
                                         <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
+                                            <Link href="#" activeClassName="active">
                                                 <a className="nav-link">Contato</a>
                                             </Link>
                                         </li>
