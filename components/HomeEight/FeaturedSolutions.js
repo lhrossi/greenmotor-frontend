@@ -7,7 +7,6 @@ class FeaturedSolutions extends Component {
             <section className="pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <span className="sub-title">O que oferecemos</span>
                         <h2>Nossos diferenciais</h2>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> */}
                     </div>
@@ -51,7 +50,7 @@ class FeaturedSolutions extends Component {
                                         <a>Previsão de Vendas</a>
                                     </Link>
                                 </h3>
-                                <p>Tenha uma maior assertividade sobre <b>quando</b> e <b>quanto</b> comprar </p>
+                                <p>Tenha uma maior assertividade sobre quando e quanto comprar </p>
                                 <Link href="/service-details">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
@@ -66,7 +65,7 @@ class FeaturedSolutions extends Component {
                                         <a>Modelos de IA sofisticados</a>
                                     </Link>
                                 </h3>
-                                <p>Aproveite ao máximo cada informação já disponível nos seus sistemas</p>
+                                <p>Aproveite cada informação já disponível nos seus sistemas</p>
                                 <Link href="/service-details">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
