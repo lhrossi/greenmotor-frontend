@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
-import FreeTrialImage from '../../images/machine-learning/free-trial-img.png';
+import BlackLogoImage from '../../images/BlackLogoTransparentBackground.png';
 
 class FreeTrial extends Component {
     render() {
         return (
-            <section className="free-trial-area ptb-100 bg-f4f7fe">
+            <section className="free-trial-area ptb-100">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <div className="ft-img">
-                                <Image src={FreeTrialImage} alt="Free trial image" />
+                            <div className="ft-img rotate">
+                                <Image src={BlackLogoImage} alt="Free trial image" />
                             </div>
                         </div>
 
                         <div className="col-lg-6">
                             <div className="subscribe-content">
-                                <span className="sub-title">Ficou com dúvidas?</span>
                                 <h2>Agende uma demonstração gratuita</h2>
         
                                 <form className="newsletter-form">
