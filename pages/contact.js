@@ -10,18 +10,7 @@ class Contact extends Component {
         return (
             <>
                 <Navbar />
-
-                <PageHeader 
-                    pageTitle="Contact" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbUrl="/" 
-                    breadcrumbTextTwo="Contact" 
-                />
-                
                 <ContactForm />
-
-                <ContactInfo />
-                
                 <Footer />
             </>
         );

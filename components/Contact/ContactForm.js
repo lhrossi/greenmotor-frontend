@@ -1,5 +1,7 @@
 import React from 'react'
 import 'isomorphic-fetch'
+import Image from 'next/image';
+import WhiteLogoImage from '../../images/WhiteLogoTransparentBackground.png';
 
 export default class ContactForm extends React.Component {
 
@@ -86,18 +88,20 @@ export default class ContactForm extends React.Component {
     render() {
         return (
             <>
-                <section className="contact-area ptb-100">
+                <section className="contact-area ptb-100 bg-black">
                     <div className="container">
                         <div className="section-title">
-                            <span className="sub-title">Contact Us</span>
-                            <h2>Drop us Message for any Query</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <br />
+                            <br />
+                            <br />
+                            <h2 className='main-banner-title-color'>Entre em contato conosco.</h2>
+                            <p className='main-banner-title-color'>Vamos lhe responder o mais rápido possível!</p>
                         </div>
 
                         <div className="row align-items-center">
                             <div className="col-lg-4 col-md-4">
-                                <div className="contact-image">
-                                    <img src="/images/contact.png" alt="image" />
+                                <div className="contact-image rotate">
+                                    <Image src={WhiteLogoImage} alt="Greenmotor logo" />
                                 </div>
                             </div>
 
@@ -114,7 +118,7 @@ export default class ContactForm extends React.Component {
                                                         type="text" 
                                                         name="name"
                                                         className="form-control" 
-                                                        placeholder="Name" 
+                                                        placeholder="Nome" 
                                                         required
                                                         value={this.state.formFields.name}
                                                         onChange={this.nameChangeHandler}
@@ -142,7 +146,7 @@ export default class ContactForm extends React.Component {
                                                         type="text"
                                                         name="phone" 
                                                         className="form-control" 
-                                                        placeholder="Phone" 
+                                                        placeholder="Telefone" 
                                                         required
                                                         value={this.state.formFields.phone}
                                                         onChange={this.phoneChangeHandler}
@@ -156,7 +160,7 @@ export default class ContactForm extends React.Component {
                                                         type="text" 
                                                         name="subject"
                                                         className="form-control" 
-                                                        placeholder="Subject" 
+                                                        placeholder="Assunto" 
                                                         required
                                                         value={this.state.formFields.subject}
                                                         onChange={this.subjectChangeHandler}
@@ -171,10 +175,9 @@ export default class ContactForm extends React.Component {
                                                         className="form-control" 
                                                         id="message" 
                                                         cols="30" 
-                                                        required
                                                         rows="5" 
                                                         required 
-                                                        placeholder="Your Message" 
+                                                        placeholder="Sua mensagem" 
                                                         value={this.state.formFields.text}
                                                         onChange={this.textChangeHandler}
                                                     />
@@ -183,7 +186,7 @@ export default class ContactForm extends React.Component {
 
                                             <div className="col-lg-12 col-md-12 text-center">
                                                 <button type="submit" className="default-btn">
-                                                    Send Message <span></span>
+                                                    Enviar Mensagem <span></span>
                                                 </button>
                                             </div>
                                         </div>
