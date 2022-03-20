@@ -75,7 +75,7 @@ class BannerSlider extends Component {
                                                             isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                         }
                                                     >
-                                                        Nosso objetivo é acabar com o desperdício de alimentos
+                                                        Nosso propósito é menos desperdício de alimentos e mais lucro aos supermercados
                                                     </h1>
 
                                                     <p
@@ -91,12 +91,6 @@ class BannerSlider extends Component {
                                                             `banner-btn ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                         }
                                                     >
-                                                        <Link href="/contact">
-                                                            <a className="default-btn mr-4">
-                                                                Como funciona?<span></span>
-                                                            </a>
-                                                        </Link>
-
                                                         <Link href="/index8">
                                                             <a className="default-btn-two">
                                                                 Teste Grátis <span></span>
