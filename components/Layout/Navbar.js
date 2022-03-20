@@ -65,7 +65,7 @@ class Navbar extends Component {
             <>
                 <div id="navbar" className="navbar-area bg-black">
                     <div className="adani-nav bg-black">
-                        <div className="container">
+                        <div className="container bg-black">
                             <nav className="navbar navbar-expand-md navbar-light bg-black">
                                 <Link href="/">
                                     <a className="navbar-brand">

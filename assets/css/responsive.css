@@ -884,7 +884,7 @@
     margin-top: 15px;
     display: block;
     width: 100%;
-    background-color: #fa7070;
+    background-color: #00fe00;
     color: #ffffff;
   }
   .subscribe-content .newsletter-form button:hover {
@@ -1201,7 +1201,7 @@
     font-size: 16px;
   }
   .navbar-area {
-    background-color: #fff;
+    background-color: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
@@ -1642,7 +1642,7 @@
     width: auto;
   }
   .subscribe-content .newsletter-form button:hover {
-    background-color: #fa7070;
+    background-color: #00fe00;
     color: #ffffff;
   }
   .woocommerce-topbar {

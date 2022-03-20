@@ -18,7 +18,7 @@ class FreeTrial extends Component {
                                 <h2>Agende uma demonstração gratuita</h2>
                                 <form className="newsletter-form">
                                     <input type="email" className="input-newsletter" placeholder="Insira seu e-mail" name="email" />
-                                    <button type="submit">Marcar uma demonstração</button>
+                                    <button type="submit" className='button-background-color'>Marcar uma demonstração</button>
                                 </form>
                                 <p className="help-text">Teste nossa Inteligência Artificial por 15 dias gratuitos.</p>
                             </div>

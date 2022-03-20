@@ -35,7 +35,7 @@ class FeaturedSolutions extends Component {
                                         <a>Fácil Visualização</a>
                                     </Link>
                                 </h3>
-                                <p>Tenha insights mais rápido com nossos dashboards personalizados</p>
+                                <p>Tenha insights mais rápidos com nossos dashboards personalizados</p>
                                 <Link href="/service-details">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
