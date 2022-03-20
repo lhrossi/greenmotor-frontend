@@ -12,28 +12,19 @@ class Footer extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <h3>Contato</h3>
-
                                     <ul className="footer-contact-info">
                                         <li>
                                             <i className="flaticon-email"></i>
                                             <span>Ficou com alguma dúvida?</span>
-                                            <a href="mailto:example@taiker.com">contato@greenmotor.ai</a>
+                                            <a href="mailto:contato@greenmotor.ai">contato@greenmotor.ai</a>
                                         </li>
-                                        
                                     </ul>
                                 </div>
                             </div>
-
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-footer-widget pl-5">
                                     <h3>Acesso rápido</h3>
-
                                     <ul className="footer-quick-links">
-                                        <li>
-                                            <Link href="/">
-                                                <a>O Que Fazemos</a>
-                                            </Link>
-                                        </li>
                                         <li>
                                             <Link href="/about2">
                                                 <a>Quem Somos</a>
@@ -48,7 +39,6 @@ class Footer extends Component {
                                 </div>
                             </div>
                         </div>
-
                         <div className="copyright-area">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-sm-6 col-md-6">
@@ -59,7 +49,6 @@ class Footer extends Component {
                                         Todos os direitos reservados a Greenmotor, {currentYear}
                                     </p>
                                 </div>
-
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <ul>
                                         <li>
