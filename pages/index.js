@@ -5,6 +5,7 @@ import FeaturedSolutions from '../components/HomeEight/FeaturedSolutions';
 import FunFacts from '../components/Common/FunFacts';
 import FreeTrial from '../components/HomeEight/FreeTrial';
 import Footer from '../components/Layout/Footer';
+import Clients from '../components/HomeEight/Clients';
 
 class Index extends Component {
     render() {
@@ -14,6 +15,7 @@ class Index extends Component {
                 <BannerSlider />
                 <FeaturedSolutions />
                 <FunFacts />
+                <Clients />
                 <FreeTrial />
                 <Footer/> 
             </>

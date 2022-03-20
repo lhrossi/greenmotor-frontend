@@ -44,7 +44,7 @@ export default withRedux(initStore)(
                 <>
                     <Head>
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                        <title>Taiker - React Next IT Startups & SEO Agency Template</title>
+                        <title>Greenmotor AI</title>
                     </Head>
 
                     <Provider store={store}>
