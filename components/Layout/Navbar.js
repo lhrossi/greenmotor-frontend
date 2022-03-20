@@ -63,10 +63,10 @@ class Navbar extends Component {
 
         return (
             <>
-                <div id="navbar" className="navbar-area">
-                    <div className="adani-nav">
+                <div id="navbar" className="navbar-area bg-black">
+                    <div className="adani-nav bg-black">
                         <div className="container">
-                            <nav className="navbar navbar-expand-md navbar-light">
+                            <nav className="navbar navbar-expand-md navbar-light bg-black">
                                 <Link href="/">
                                     <a className="navbar-brand">
                                         <Image src={LogoImage} alt="Logo" />
