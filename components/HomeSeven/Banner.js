@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import DashboardImage2 from '../../images/saas-banner/dashboard.png';
 
 class Banner extends Component {
     state = {
@@ -34,7 +36,7 @@ class Banner extends Component {
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="saas-banner-image animate-tb">
-                                            <img src="/images/saas-banner/dashboard.png" alt="image" />
+                                            <Image src={DashboardImage2} alt="Dashboard"/>
                                         </div>
                                     </div>
                                 </div>
