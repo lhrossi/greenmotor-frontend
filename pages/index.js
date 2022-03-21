@@ -16,7 +16,7 @@ class Index extends Component {
                 <Banner />
                 <FeaturedSolutions />
                 <FunFacts />
-                {/* <Clients /> */}
+                <Clients />
                 <FreeTrial />
                 <Footer/> 
             </>

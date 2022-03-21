@@ -26,7 +26,7 @@ class Footer extends Component {
                                     <h3>Acesso rápido</h3>
                                     <ul className="footer-quick-links">
                                         <li>
-                                            <Link href="/about2">
+                                            <Link href="/#">
                                                 <a>Quem Somos</a>
                                             </Link>
                                         </li>

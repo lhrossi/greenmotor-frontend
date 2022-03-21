@@ -5,24 +5,25 @@ class Clients extends Component {
     render() {
         return (
             <>
-                <section className="partner-area ptb-100">
+                <section className="partner-area ptb-100 bg-black">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Nossos parceiros</h2>
-                            <p>Supermercados que já estão utilizando nossa tecnologia para redução de desperdícios.</p>
+                            <h2 className='text-color-white'>Nossos parceiros</h2>
+                            <p className='text-color-white'>Supermercados que já estão utilizando nossa tecnologia para redução de desperdícios.</p>
                         </div>
 
                         <div className="row align-items-center col-lg-12">
                             <div className="single-partner-item">
-                                <a href="/partner" target="_blank">
-                                    <img src="/images/partner-image/partner-img1.png" alt="image" />
-                                    <img src="/images/partner-image/partner-img1.png" alt="image" />
+                            
+                                <a href="https://www.dia.com.br/" target="_blank">
+                                    <img src="/images/mercadoDiaLogo.png" alt="image" />
+                                    <img src="/images/mercadoDiaLogo.png" alt="image" />
                                 </a>
                             </div>
                             <div className="single-partner-item">
-                                <a href="/partner" target="_blank">
-                                    <img src="/images/partner-image/partner-img2.png" alt="image" />
-                                    <img src="/images/partner-image/partner-img2.png" alt="image" />
+                                <a href="https://magmaxx.com.br/" target="_blank">
+                                    <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
+                                    <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
                                 </a>
                             </div>
                         </div>
