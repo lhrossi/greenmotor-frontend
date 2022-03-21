@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 class Clients extends Component {
     render() {
@@ -14,16 +15,15 @@ class Clients extends Component {
 
                         <div className="row align-items-center col-lg-12">
                             <div className="single-partner-item">
-                            
                                 <a href="https://www.dia.com.br/" target="_blank">
-                                    <img src="/images/mercadoDiaLogo.png" alt="image" />
-                                    <img src="/images/mercadoDiaLogo.png" alt="image" />
+                                    <Image src={`/images/mercadoDiaLogo.png`} alt="Mercado Dia Logo" />
+                                    <Image src={`/images/mercadoDiaLogo.png`} alt="Mercado Dia Logo" />
                                 </a>
                             </div>
                             <div className="single-partner-item">
                                 <a href="https://magmaxx.com.br/" target="_blank">
-                                    <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
-                                    <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
+                                    <Image src={`/images/mercadoMagmaxxLogo.png`} alt="Mercado Magmaxx Logo" />
+                                    <Image src={`/images/mercadoMagmaxxLogo.png`} alt="Mercado Magmaxx Logo" />
                                 </a>
                             </div>
                         </div>
