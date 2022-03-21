@@ -170,9 +170,9 @@ p:last-child {
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
-  background-color: #00fe00;
+  background-color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -3095,7 +3095,6 @@ Fun Facts Area CSS
   opacity: .40;
   height: 100%;
   z-index: -1;
-  background-image: url(../../images/bg_lines.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5216,7 +5215,7 @@ Subscribe Area CSS
   position: absolute;
   right: 5px;
   top: 5px;
-  background-color: #00fe00;
+  background-color: #000000;
   color: #ffffff;
   border: none;
   height: 55px;
@@ -8584,9 +8583,9 @@ SaaS Startup Page CSS
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
-  background-color: #00fe00;
+  background-color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -9110,7 +9109,7 @@ AI & Machine Learning Page CSS
 }
 
 .free-trial-area .subscribe-content h2 {
-  color: #000000;
+  color: #ffffff;
 }
 
 .free-trial-area .subscribe-content .help-text {
@@ -9205,6 +9204,10 @@ Meu CSS
   color: #ffffff
 }
 
+.text-color-white {
+  color: #ffffff
+}
+
 .bg-black {
   background-color: #000000;
 }
@@ -9213,8 +9216,15 @@ Meu CSS
   background-color: #00fe00;
 }
 
+.button-white-background {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
 .animate-button-background {
   background: linear-gradient(to right, #c3c3c3 50%, #00fe00 50%);
   background-size: 200% 100%;
   background-position: left bottom;
 }
+

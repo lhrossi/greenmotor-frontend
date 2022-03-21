@@ -4,10 +4,10 @@ import Link from 'next/link';
 class FeaturedSolutions extends Component {
     render() {
         return (
-            <section className="pt-100 pb-70">
+            <section className="pt-100 pb-70 bg-black">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Nossos diferenciais</h2>
+                        <h2 className='main-banner-title-color'>Nossos diferenciais</h2>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> */}
                     </div>
 

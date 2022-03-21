@@ -17,7 +17,7 @@ class FunFacts extends Component {
     render() {
         return (
             <>
-                <section className="fun-facts-area ptb-100">
+                <section className="fun-facts-area ptb-100 bg-black">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
@@ -45,7 +45,6 @@ class FunFacts extends Component {
                                         <span className="sign-icon">+</span>
                                     </h3>
                                     <p>SKUs Analisados</p>
-                                    <div className="back-text">S</div>
                                 </div>
                             </div>
 
@@ -74,7 +73,6 @@ class FunFacts extends Component {
                                         <span className="sign-icon">%</span>
                                     </h3>
                                     <p>Redução de perdas</p>
-                                    <div className="back-text">C</div>
                                 </div>
                             </div>
 
@@ -102,7 +100,6 @@ class FunFacts extends Component {
                                         </span>
                                     </h3>
                                     <p>Cases de sucesso</p>
-                                    <div className="back-text">A</div>
                                 </div>
                             </div>
 
@@ -131,7 +128,6 @@ class FunFacts extends Component {
                                         <span className="sign-icon">%</span>
                                     </h3>
                                     <p>Retorno do Investimento</p>
-                                    <div className="back-text">E</div>
                                 </div>
                             </div>
                         </div>
