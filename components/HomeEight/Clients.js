@@ -14,13 +14,13 @@ class Clients extends Component {
 
                         <div className="row align-items-center col-lg-12">
                             <div className="single-partner-item">
-                                <a href="https://www.dia.com.br/" target="_blank">
+                                <a href="#" target="_blank">
                                     <img src="/images/mercadoDiaLogo.png" alt="image" />
                                     <img src="/images/mercadoDiaLogo.png" alt="image" />
                                 </a>
                             </div>
                             <div className="single-partner-item">
-                                <a href="https://magmaxx.com.br/" target="_blank">
+                                <a href="#" target="_blank">
                                     <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
                                     <img src="/images/mercadoMagmaxxLogo.png" alt="image" />
                                 </a>
