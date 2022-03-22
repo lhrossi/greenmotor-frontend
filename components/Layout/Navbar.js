@@ -91,8 +91,8 @@ class Navbar extends Component {
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <Link href="#" activeClassName="active">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <Link href="/sobre" activeClassName="active">
+                                                <a className="nav-link">
                                                     Quem somos
                                                 </a>
                                             </Link>
