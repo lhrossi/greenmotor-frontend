@@ -52,8 +52,13 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Kimberley", sans-serif;
   background-color: #c3c3c3;
+}
+
+@font-face {
+  font-family: "Kimberley";
+  src: url("/assets/fonts/kimberley-bl.ttf");
 }
 
 img {
@@ -190,7 +195,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #00fe00;
+  background-color: #ffffff;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -206,6 +211,7 @@ p:last-child {
 .default-btn:hover span, .default-btn:focus span {
   width: 225%;
   height: 562.5px;
+  background-color: #ffffff;
 }
 
 /* Section title */
@@ -8620,6 +8626,7 @@ SaaS Startup Page CSS
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
   background-color: #ffffff;
+  color: #000000;
 }
 
 .default-btn-two:hover span, .default-btn-two:focus span {
