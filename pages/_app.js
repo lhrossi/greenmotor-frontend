@@ -46,7 +46,7 @@ export default withRedux(initStore)(
                     <Head>
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                         <title>Greenmotor AI</title>
-                        <link rel="icon" type="image/png" href="public/favicon.png"></link>
+                        <link rel="shortcut icon" type="image/png" href="/favicon.png"></link>
                     </Head>
 
                     <Provider store={store}>
@@ -57,7 +57,7 @@ export default withRedux(initStore)(
                     <Loader loading={this.state.loading} />
 
                     {/* Go Top Button */}
-                    <GoTop scrollStepInPx="50" delayInMs="16.66" />
+                    {/* <GoTop scrollStepInPx="50" delayInMs="16.66" /> */}
                 </>
             );
         }
