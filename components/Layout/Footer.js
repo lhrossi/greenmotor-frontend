@@ -43,9 +43,6 @@ class Footer extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <p>
-                                        Feito com 💖 por <a href="https://github.com/DericksonLossIT" target="_blank">Derickson Loss</a>
-                                    </p>
-                                    <p>
                                         Todos os direitos reservados a Greenmotor, {currentYear}
                                     </p>
                                 </div>
