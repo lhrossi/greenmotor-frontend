@@ -52,13 +52,13 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-family: "Kimberley", "Overpass", sans-serif;
+  font-family: "Kimberley", sans-serif;
   background-color: #c3c3c3;
 }
 
 @font-face {
   font-family: "Kimberley";
-  src: url("/assets/fonts/kimberley-bl.ttf");
+  src: url("/kimberley-bl.ttf");
 }
 
 img {
