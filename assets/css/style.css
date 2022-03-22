@@ -206,7 +206,7 @@ p:last-child {
 }
 
 .default-btn:hover, .default-btn:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: #00fe00;
 }
 
@@ -9320,4 +9320,36 @@ Meu CSS
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+}
+
+.sobre-nos {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.center-everything {
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-about-us {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+@media only screen and (max-width: 767px) {
+  .flex-about-us{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 }
