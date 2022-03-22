@@ -173,6 +173,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@fortawesome/fontawesome-free@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.1.0.tgz#db162f63c6fdb3ecc6d44de3bbc8ed178390d709"
+  integrity sha512-OgM74M6+Q7BuKAj8r+VfzwjnIGZrY62R4ipbiDvBW4FA0mLnB3yeuV/2bW63j+zppGyTvBp/3jqXp9ZXy43nFw==
+
 "@jest/types@^26.6.2":
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e"
@@ -2109,6 +2114,11 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-fullpage-custom-loader@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-fullpage-custom-loader/-/react-fullpage-custom-loader-0.1.6.tgz#25403707e1ce699ea28e938accb94d4112f01df1"
+  integrity sha512-kvRvWwkgnik+zPvGtBBitUecW3MoHs0BKW+o7MGzYqOOtT5F1g2sIQxR21/FyE4b+9HPhgeEVwsJ+8/mA1FwVw==
 
 react-icons@^3.11.0:
   version "3.11.0"
