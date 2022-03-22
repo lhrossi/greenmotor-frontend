@@ -8585,9 +8585,9 @@ SaaS Startup Page CSS
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
-  background-color: #ffffff;
+  background-color: #00fe00;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
@@ -8615,11 +8615,11 @@ SaaS Startup Page CSS
 }
 
 .default-btn-two:hover, .default-btn-two:focus {
-  color: #ffffff;
   -webkit-box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.25);
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
+  background-color: #ffffff;
 }
 
 .default-btn-two:hover span, .default-btn-two:focus span {
@@ -8956,7 +8956,8 @@ AI & Machine Learning Page CSS
   transition: 0.5s;
   padding: 30px 25px;
   margin-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 10%;
 }
 
@@ -8970,10 +8971,11 @@ AI & Machine Learning Page CSS
 .featured-solution-card h3 {
   font-size: 19px;
   line-height: 1.3;
+  color: #ffffff;
 }
 
 .featured-solution-card h3 a {
-  color: #000000;
+  color: #ffffff;
 }
 
 .featured-solution-card h3 a:hover {
@@ -8986,7 +8988,7 @@ AI & Machine Learning Page CSS
 }
 
 .featured-solution-card .read-more {
-  color: #000000;
+  color: #ffffff;
   font-size: 14.5px;
   margin-top: 15px;
   position: relative;
@@ -9210,6 +9212,10 @@ Meu CSS
   color: #ffffff
 }
 
+.text-color-black {
+  color: #000000;
+}
+
 .bg-black {
   background-color: #000000;
 }
@@ -9230,3 +9236,19 @@ Meu CSS
   background-position: left bottom;
 }
 
+.bg-gray {
+  background-color: #f8f8ff	;
+}
+
+.custom-partner-item {
+  text-align: center;
+  margin-bottom: 10px;
+  -ms-flex: 0 0 20%;
+  -webkit-box-flex: 0;
+  flex: 0 0 20%;
+  flex-grow: 2;
+  max-width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: transparent;
+}
