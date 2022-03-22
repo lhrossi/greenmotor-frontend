@@ -10,30 +10,21 @@ import OurTeam from '../components/Common/OurTeam';
 import SubscribeFluid from '../components/Common/SubscribeFluid';
 import PartnerWithTitle from '../components/Common/Partner/PartnerWithTitle';
 import Footer from '../components/Layout/Footer';
+import FreeTrial from '../components/HomeEight/FreeTrial';
 
-class About extends Component {
+class Sobre extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <PageHeader 
-                    pageTitle="About Us" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbUrl="/" 
-                    breadcrumbTextTwo="About Us" 
-                />
-                <AboutArea />
-                <FunFacts />
                 <WhyChooseUs />
-                <Solution />
-                <Testimonials />
                 <OurTeam />
-                <SubscribeFluid />
-                <PartnerWithTitle />
+                <FunFacts />
+                <FreeTrial />
                 <Footer />
             </>
         );
     }
 }
 
-export default About;
+export default Sobre;
