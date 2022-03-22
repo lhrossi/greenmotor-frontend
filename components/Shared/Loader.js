@@ -7,7 +7,7 @@ class Loader extends Component {
         return (
             <>
                 <div className={`preloader custom-loader-image ${this.props.loading ? '' : 'preloader-deactivate'}`}>
-                    <Image src={GreenmotorWhiteLogo} className="custom-loader-image rotate" />
+                    <Image priority src={GreenmotorWhiteLogo} className="custom-loader-image rotate" />
                     {/* <div className="loader">
                         <div className="shadow"></div>
                         <div className="box"></div>
