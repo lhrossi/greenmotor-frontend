@@ -22,7 +22,8 @@ class Banner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="banner-content">
-                                            <h1 className='main-banner-title-color'>Nosso propósito é menos desperdício de alimentos e mais lucro aos supermercados</h1>
+                                            <h1 className='main-banner-title-color'>Menos desperdício de alimentos, 
+                                                                                    Mais lucros aos supermercados</h1>
                                             <p className='main-banner-title-color'>Utilizando os dados que seu mercado já tem, utilizamos nossa Inteligência Artificial para <b>otimizar seu estoque</b>, <b>diminuir o desperdício</b> de alimentos e fazer o seu cliente ter um <b>produto mais fresco</b>, enquanto <b>aumentamos o retorno do seu investimento.</b></p>
 
                                             <div className="banner-btn">
