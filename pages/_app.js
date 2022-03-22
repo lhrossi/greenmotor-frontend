@@ -20,6 +20,7 @@ import { initStore } from '../store/reducers/cartReducer';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
+
 export default withRedux(initStore)(
     class MyApp extends App {
 
@@ -28,7 +29,7 @@ export default withRedux(initStore)(
             loading: true
         };
         componentDidMount() {
-            this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+            this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000);
         }
         componentWillUnmount() {
             if (this.timerHandle) {
@@ -36,8 +37,8 @@ export default withRedux(initStore)(
                 this.timerHandle = 0;
             }
         }
-        
-        render () {
+
+        render() {
             const { Component, pageProps, store } = this.props
 
             return (
@@ -45,12 +46,13 @@ export default withRedux(initStore)(
                     <Head>
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                         <title>Greenmotor AI</title>
+                        <link rel="icon" type="image/png" href="public/favicon.png"></link>
                     </Head>
 
                     <Provider store={store}>
                         <Component {...pageProps} />
                     </Provider>
-                    
+
                     {/* Preloader */}
                     <Loader loading={this.state.loading} />
 
