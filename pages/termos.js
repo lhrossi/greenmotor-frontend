@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
-import ShopProducts from '../components/Shop/ShopProducts';
+import TermsAndConditionsContent from '../components/TermsAndConditions/TermsAndConditionsContent';
 import Footer from '../components/Layout/Footer';
 
-class Shop extends Component {
+class Termos extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageHeader 
-                    pageTitle="Shop" 
+                    pageTitle="Terms And Conditions" 
                     breadcrumbTextOne="Home" 
                     breadcrumbUrl="/" 
-                    breadcrumbTextTwo="Shop" 
+                    breadcrumbTextTwo="Terms And Conditions" 
                 />
 
-                <ShopProducts />
+                <TermsAndConditionsContent />
                 
-                <Footer />
+                <Footer/>
             </>
         );
     }
 }
 
-export default Shop;
+export default Termos;

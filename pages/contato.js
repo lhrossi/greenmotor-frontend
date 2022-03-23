@@ -5,7 +5,7 @@ import ContactForm from '../components/Contact/ContactForm';
 import ContactInfo from '../components/Contact/ContactInfo';
 import Footer from '../components/Layout/Footer';
 
-class Contact extends Component {
+class Contato extends Component {
     render() {
         return (
             <>
@@ -17,4 +17,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Contato;

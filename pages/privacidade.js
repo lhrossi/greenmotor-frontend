@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layout/Navbar';
 import PageHeader from '../components/Common/PageHeader';
-import PartnerLogo from '../components/Partner/PartnerLogo';
+import PrivacyPolicyContent from '../components/PrivacyPolicy/PrivacyPolicyContent';
 import Footer from '../components/Layout/Footer';
 
-
-class Partner extends Component {
+class Privacidade extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageHeader 
-                    pageTitle="Partner" 
+                    pageTitle="Privacy Policy" 
                     breadcrumbTextOne="Home" 
                     breadcrumbUrl="/" 
-                    breadcrumbTextTwo="Partner" 
+                    breadcrumbTextTwo="Privacy Policy" 
                 />
 
-                <PartnerLogo />
+                <PrivacyPolicyContent />
                 
-                <Footer />
+                <Footer/>
             </>
         );
     }
 }
 
-export default Partner;
+export default Privacidade;
