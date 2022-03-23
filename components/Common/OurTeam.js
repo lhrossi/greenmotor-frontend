@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import eduImage from '../../images/eduPhoto.png';
+import rodrigoImage from '../../images/rodrigoPhoto.png';
 
 class OurTeam extends Component {
     render() {
@@ -17,7 +20,8 @@ class OurTeam extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className='sobre-nos'>
                                     <br />
-                                    <h1 className='text-color-white'>EDUARDO KAUTZ</h1>
+                                    <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
+                                    <h1 className='text-color-white text-margin-top'>EDUARDO KAUTZ</h1>
                                     <br />
                                     <h2 className='text-color-white'>Founder & CEO</h2>
                                     <br />
@@ -27,7 +31,8 @@ class OurTeam extends Component {
                             <div className="col-lg-6 col-md-12">
                                 <div className='sobre-nos'>
                                     <br />
-                                    <h1 className='text-color-white' >RODRIGO VILLA REAL</h1>
+                                    <Image src={rodrigoImage} alt="Foto do co-fundador Rodrigo Villa" />
+                                    <h1 className='text-color-white text-margin-top' >RODRIGO VILLA REAL</h1>
                                     <br />
                                     <h2 className='text-color-white'>Co-founder & CFO</h2>
                                     <br />
