@@ -6,6 +6,7 @@ import FreeTrial from '../components/HomeEight/FreeTrial';
 import Footer from '../components/Layout/Footer';
 import Clients from '../components/HomeEight/Clients';
 import Banner from '../components/HomeSeven/Banner';
+import Press from '../components/Common/Press';
 
 
 class Index extends Component {
@@ -17,6 +18,7 @@ class Index extends Component {
                 <FeaturedSolutions />
                 <FunFacts />
                 <Clients />
+                <Press />
                 <FreeTrial />
                 <Footer/> 
             </>
