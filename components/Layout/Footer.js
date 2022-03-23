@@ -49,12 +49,12 @@ class Footer extends Component {
                                 <div className="col-lg-6 col-sm-6 col-md-6">
                                     <ul>
                                         <li>
-                                            <Link href="/terms-and-conditions">
+                                            <Link href="#">
                                                 <a>Termos e Condições</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/privacy-policy">
+                                            <Link href="#">
                                                 <a>Política de Privacidade</a>
                                             </Link>
                                         </li>
