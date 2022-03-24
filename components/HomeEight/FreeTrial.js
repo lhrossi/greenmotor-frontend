@@ -20,11 +20,11 @@ class FreeTrial extends Component {
                   Agende uma demonstração gratuita
                 </h2>
                 <form className="newsletter-form">
-                  <button type="submit" className="custom-demo-button">
-                    Marcar uma demonstração
-                  </button>
-                  {/* <br />     */}
-                  {/* <br /> */}
+                  <a href="https://api.whatsapp.com/send?phone=555198668926&text=Gostaria%20de%20fazer%20oteste%20gr%C3%A1tis%20da%20Greenmotor!">
+                    <button type="submit" className="custom-demo-button">
+                      Marcar uma demonstração
+                    </button>
+                  </a>
                   <p className="help-text text-color-white text-padding-top">
                     Teste nossa Inteligência Artificial por 15 dias gratuitos.
                   </p>
