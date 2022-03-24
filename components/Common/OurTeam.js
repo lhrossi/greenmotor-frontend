@@ -42,7 +42,6 @@ class OurTeam extends Component {
                                     <br />
                                     <p className='text-color-white'>Oito anos de experiência no mercado financeiro, com passagem pelo Banco Renner, Azimut Wealth Management e Crescendo Group. Especialista em Wealth Management. Relaciona-se e investe no ecossistema de startups há três anos.</p>
                                     <Image src={azimutImage} alt="Logo da Azimut" />
-                                    <Image src={crescendoImage} alt="Logo da Crescendo" />
                                 </div>
                             </div>
                         </div>
