@@ -17,7 +17,6 @@ class Index extends Component {
                 <Banner />
                 <FeaturedSolutions />
                 <FunFacts />
-                <Clients />
                 <Press />
                 <FreeTrial />
                 <Footer/> 

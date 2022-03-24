@@ -24,7 +24,7 @@ class OurTeam extends Component {
                                 <div className='sobre-nos'>
                                     <br />
                                     <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
-                                    <h1 className='text-color-white text-margin-top'>EDUARDO KAUTZ</h1>
+                                    <h1 className='text-color-white text-margin-top'>EDU KAUTZ</h1>
                                     <br />
                                     <h2 className='text-color-white'>Founder & CEO</h2>
                                     <br />
@@ -40,7 +40,7 @@ class OurTeam extends Component {
                                     <br />
                                     <h2 className='text-color-white'>Co-founder & CFO</h2>
                                     <br />
-                                    <p className='text-color-white'>Oito anos de experiência no mercado financeiro, com passagem pelo Banco Renner, Azimut Wealth Management, gestora italiana, e Crescendo Group, boutique suíça. Especialista em Wealth Management. Relaciona-se e investe no ecossistema de startups há três anos.</p>
+                                    <p className='text-color-white'>Oito anos de experiência no mercado financeiro, com passagem pelo Banco Renner, Azimut Wealth Management e Crescendo Group. Especialista em Wealth Management. Relaciona-se e investe no ecossistema de startups há três anos.</p>
                                     <Image src={azimutImage} alt="Logo da Azimut" />
                                     <Image src={crescendoImage} alt="Logo da Crescendo" />
                                 </div>
