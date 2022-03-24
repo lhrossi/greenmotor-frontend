@@ -63,7 +63,7 @@ class FunFacts extends Component {
                                                     start={0}
                                                     end={
                                                         this.state.didViewCountUp
-                                                        ? 75
+                                                        ? 95
                                                         : 0
                                                     }
                                                     duration={3}
@@ -72,7 +72,7 @@ class FunFacts extends Component {
                                         </span>
                                         <span className="sign-icon">%</span>
                                     </h3>
-                                    <p>Redução de perdas</p>
+                                    <p>Precisão da previsão de vendas</p>
                                 </div>
                             </div>
 
