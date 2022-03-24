@@ -236,7 +236,6 @@ p:last-child {
 
 .section-title h2 {
   max-width: 560px;
-  text-transform: capitalize;
   font-weight: 800;
   font-size: 40px;
   margin-left: auto;
@@ -1338,7 +1337,7 @@ Main Banner Area CSS
   right: 5px;
   top: 5px;
   background-color: #00fe00;
-  color: #ffffff;
+  color: #000000  ;
   border: none;
   height: 55px;
   padding: 0 30px;
@@ -1352,7 +1351,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content form button:hover {
-  background-color: #00fe00;
+  background-color: #000000;
   color: #ffffff;
 }
 
