@@ -207,7 +207,7 @@ p:last-child {
 
 .default-btn:hover, .default-btn:focus {
   color: #000000;
-  background-color: #00fe00;
+  background-color: #ffffff;
 }
 
 .default-btn:hover span, .default-btn:focus span {
@@ -5230,7 +5230,7 @@ Subscribe Area CSS
   right: 5px;
   top: 5px;
   background-color: #00fe00;
-  color: #ffffff;
+  color: #000000;
   border: none;
   height: 55px;
   padding: 0 30px;
@@ -5244,8 +5244,8 @@ Subscribe Area CSS
 }
 
 .subscribe-content .newsletter-form button:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .subscribe-content .newsletter-form #validator-newsletter {
@@ -8597,7 +8597,7 @@ SaaS Startup Page CSS
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   background-color: #00fe00;
   -webkit-transition: 0.5s;
@@ -8617,7 +8617,7 @@ SaaS Startup Page CSS
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #00fe00;
+  background-color: #ffffff;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -9376,6 +9376,24 @@ Meu CSS
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.custom-demo-button {
+  display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    height: 65px;
+    padding-left: 25px;
+    border-radius: 70px;
+    padding-top: 5px;
+    outline: 0;
+    color: #000000;
+    font-size: 15px;
+}
+
+.text-padding-top {
+  padding-top: 5rem;
 }
 
 @media only screen and (max-width: 767px) {
