@@ -5,10 +5,10 @@ import sebraeLogo from '../../images/sebraeLogo.png'
 const Press = () => {
     return (
         <>
-            <section className="partner-area ptb-100 bg-gray">
+            <section className="partner-area ptb-100 bg-black">
                 <div className="container">
                     <div className="section-title">
-                        <h2 className='text-color-black'>Greenmotor na mídia</h2>
+                        <h2 className='text-color-white'>Greenmotor na mídia</h2>
                     </div>
 
                     <div className="row align-items-center col-lg-12">
