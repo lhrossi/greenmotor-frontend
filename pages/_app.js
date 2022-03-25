@@ -60,7 +60,7 @@ export default withRedux(initStore)(
                     {/* Go Top Button */}
                     {/* <GoTop scrollStepInPx="50" delayInMs="16.66" /> */}
                     <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" className="float-wpp" target="_blank">
-                        <i className="fa fa-whatsapp my-float-wpp"></i>
+                        <i aria-hidden className="fa fa-whatsapp my-float-wpp"></i>
                     </a>
                 </>
             );
