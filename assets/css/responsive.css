@@ -1088,13 +1088,13 @@
     margin-top: 15px;
     display: block;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #00fe00;
     color: #000000;
   }
 
   .subscribe-content .newsletter-form button:hover {
-    background-color: #00fe00;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
   .page-title-area {
@@ -2039,8 +2039,8 @@
   }
 
   .subscribe-content .newsletter-form button:hover {
-    background-color: #00fe00;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
   .woocommerce-topbar {
