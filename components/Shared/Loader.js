@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { Component } from "react";
-import GreenmotorWhiteLogo from "../../images/WhiteLogoTransparentBackground.png";
+import GreenmotorWhiteLogoLoader from "../../images/loader.png";
 
 class Loader extends Component {
   render() {
@@ -13,8 +13,8 @@ class Loader extends Component {
         >
           <Image
             priority
-            src={GreenmotorWhiteLogo}
-            className="custom-loader-image rotate"
+            src={GreenmotorWhiteLogoLoader}
+            className="custom-loader-image preloader-shrink-icon rotate"
           />
           {/* <div className="loader">
                         <div className="shadow"></div>
