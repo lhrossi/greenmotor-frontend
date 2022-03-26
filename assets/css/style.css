@@ -5244,8 +5244,8 @@ Subscribe Area CSS
 }
 
 .subscribe-content .newsletter-form button:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .subscribe-content .newsletter-form #validator-newsletter {
