@@ -7,20 +7,22 @@ import Footer from '../components/Layout/Footer';
 import Clients from '../components/HomeEight/Clients';
 import Banner from '../components/HomeSeven/Banner';
 import Press from '../components/Common/Press';
+import InDevelopment from '../components/Common/InDevelopment';
 
 
 class Index extends Component {
     render() {
         return (
             <>
-                <Navbar />
+            <InDevelopment />
+                {/* <Navbar />
                 <Banner />
                 <FeaturedSolutions />
                 <FunFacts />
                 <Press />
                 <Clients />
                 <FreeTrial />
-                <Footer/> 
+                <Footer/>  */}
             </>
         );
     }
