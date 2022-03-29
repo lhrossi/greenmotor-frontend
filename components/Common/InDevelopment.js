@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import GreenmotorTitle from "../../images/greenmotorWhiteTitle.png";
+import GreenmotorTitle from '../../images/greenmotorFullLogoWhite.png'
 
 const InDevelopment = () => {
   return (
