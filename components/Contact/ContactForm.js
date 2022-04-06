@@ -78,7 +78,7 @@ export default class ContactForm extends React.Component {
         if (this.state.submitted){
             return (
                 <div className="alert alert-success alert-dismissible mt-4">
-                    <strong>Thank you!</strong> Your message is send to the owner
+                    <strong>Obrigado!</strong> Já recebemos a sua mensagem!
                     <button onClick={this.onHideSuccess} type="button" className="btn-close"></button>
                 </div>
             );

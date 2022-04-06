@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "node server.js -p $PORT",
         "build": "next build",
-        "start": "NODE_ENV=production node server.js -p $PORT"
+        "start": "node server.js -p $PORT"
     },
     "author": "Derickson Loss IT",
     "license": "ISC",
@@ -43,10 +43,14 @@
         "redux": "^4.1.2",
         "redux-devtools-extension": "^2.13.9",
         "sass": "^1.43.5",
-        "stripe": "^8.191.0"
+        "stripe": "^8.191.0",
+        "vercel": "^24.0.1"
     },
     "devDependencies": {
         "file-loader": "^6.2.0",
         "url-loader": "^4.1.1"
+    },
+    "engines": {
+        "node": "16.x"
     }
 }

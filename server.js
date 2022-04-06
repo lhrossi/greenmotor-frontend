@@ -38,8 +38,10 @@ app.prepare().then(() => {
     server.post('/api/contact', (req, res) => {
         const { name, email, phone, subject, text } = req.body;
         mailer({name, email, phone, subject, text}).then(() => {
+            console.log('req', req)
             res.send('success')
         }).catch(error => {
+            console.log('error: ', error)
             res.status(422).send(error)
         });
     });
