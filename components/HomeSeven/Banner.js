@@ -27,9 +27,9 @@ class Banner extends Component {
                                             <p className='main-banner-title-color'>Utilizando os dados que seu mercado já tem, utilizamos nossa Inteligência Artificial para <b>otimizar seu estoque</b>, <b>diminuir o desperdício</b> de alimentos e fazer o seu cliente ter um <b>produto mais fresco</b>, enquanto <b>aumentamos o retorno do seu investimento.</b></p>
 
                                             <div className="banner-btn">
-                                                <Link href="https://api.whatsapp.com/send?phone=555198668926&text=Gostaria%20de%20fazer%20oteste%20gr%C3%A1tis%20da%20Greenmotor!">
+                                                <Link href="https://api.whatsapp.com/send?phone=555198668926&text=Gostaria%20de%20fazer%20o%20teste%20gr%C3%A1tis%20da%20Greenmotor!">
                                                     <a className="default-btn-two">
-                                                        Teste Grátis <span></span>
+                                                        Teste 15 Dias Grátis <span></span>
                                                     </a>
                                                 </Link>
                                             </div>
