@@ -16,7 +16,7 @@ class Privacidade extends Component {
                     breadcrumbUrl="/" 
                     breadcrumbTextTwo="Privacy Policy" 
                 />
-
+                a
                 <PrivacyPolicyContent />
                 
                 <Footer/>
