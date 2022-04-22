@@ -13,15 +13,15 @@ class Index extends Component {
   render() {
     return (
       <>
-        {/* <InDevelopment /> */}
-        <Navbar />
+        <InDevelopment />
+        {/* <Navbar />
         <Banner />
         <FeaturedSolutions />
         <FunFacts />
         <Press />
         <Clients />
         <FreeTrial />
-        <Footer />
+        <Footer /> */}
       </>
     );
   }
