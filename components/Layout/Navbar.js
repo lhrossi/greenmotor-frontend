@@ -98,9 +98,7 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link href="/contato" activeClassName="active">
-                                                <a className="nav-link">Contato</a>
-                                            </Link>
+                                                <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" target='_blank' className="nav-link">Contato</a>
                                         </li>
                                     </ul>
                                 </div>
