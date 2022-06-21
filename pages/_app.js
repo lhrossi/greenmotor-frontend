@@ -48,6 +48,9 @@ export default withRedux(initStore)(
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                         <title>Greenmotor AI</title>
                         <link rel="shortcut icon" type="image/png" href="/favicon.png"></link>
+                        <meta property='og:title' content='Greenmotor AI'></meta>
+                        <meta property='og:description' content='Menos desperdício de alimentos, mais lucros aos supermercados'></meta>
+                        <meta property='og:image' content='/favicon.png' ></meta>
                     </Head>
 
                     <Provider store={store}>
