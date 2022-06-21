@@ -15,13 +15,10 @@ class FreeTrial extends Component {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="subscribe-content">
+                            <div className="subscribe-content subscribe-content-custom">
                                 <h2 className='text-color-white'>Agende uma demonstração gratuita</h2>
-                                <form className="newsletter-form">
-                                    <input type="email" className="input-newsletter" placeholder="Insira seu e-mail" name="email" />
-                                    <button type="submit" className='button-white-background'>Marcar uma demonstração</button>
-                                </form>
-                                <p className="help-text text-color-white">Teste nossa Inteligência Artificial por 15 dias gratuitos.</p>
+                                <a href='https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F' target='_blank' className='custom-free-trial-button button-white-background'>Marcar uma demonstração</a>
+                                <span className="help-text text-color-white">Teste nossa Inteligência Artificial por 15 dias gratuitos.</span>
                             </div>
                         </div>
                     </div>

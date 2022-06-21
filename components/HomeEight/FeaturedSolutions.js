@@ -16,12 +16,12 @@ class FeaturedSolutions extends Component {
                             <div className="featured-solution-card bg-black">
                                 <i className='bx bxs-analyse'></i>
                                 <h3 className=''>
-                                    <Link href="/service-details">
+                                    <Link href="/">
                                         <a>Extração de Dados</a>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Integramos com os seus sistemas de gestão empresarial e de estoque</p>
-                                <Link href="/service-details">
+                                <Link href="/">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
@@ -31,12 +31,12 @@ class FeaturedSolutions extends Component {
                             <div className="featured-solution-card">
                                 <i className='bx bx-shape-circle'></i>
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/">
                                         <a>Fácil Visualização</a>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Tenha insights mais rápidos com nossos dashboards personalizados</p>
-                                <Link href="/service-details">
+                                <Link href="/">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
@@ -46,12 +46,12 @@ class FeaturedSolutions extends Component {
                             <div className="featured-solution-card">
                                 <i className='bx bx-badge-check'></i>
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/">
                                         <a>Previsão de Vendas</a>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Tenha uma maior assertividade sobre quando e quanto comprar </p>
-                                <Link href="/service-details">
+                                <Link href="/">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>
@@ -61,12 +61,12 @@ class FeaturedSolutions extends Component {
                             <div className="featured-solution-card">
                                 <i className='bx bx-layer'></i>
                                 <h3>
-                                    <Link href="/service-details">
+                                    <Link href="/">
                                         <a>Modelos de IA sofisticados</a>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Aproveite cada informação já disponível nos seus sistemas</p>
-                                <Link href="/service-details">
+                                <Link href="/">
                                     <a className="read-more">Saber mais</a>
                                 </Link>
                             </div>

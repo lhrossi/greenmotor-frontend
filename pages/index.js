@@ -8,20 +8,22 @@ import Clients from "../components/HomeEight/Clients";
 import Banner from "../components/HomeSeven/Banner";
 import Press from "../components/Common/Press";
 import InDevelopment from "../components/Common/InDevelopment";
+import DashboardSection from "../components/Common/DashboardSection";
 
 class Index extends Component {
   render() {
     return (
       <>
-        <InDevelopment />
-        {/* <Navbar />
+        {/* <InDevelopment /> */}
+        <Navbar />
         <Banner />
+        <DashboardSection />
         <FeaturedSolutions />
         <FunFacts />
         <Press />
         <Clients />
         <FreeTrial />
-        <Footer /> */}
+        <Footer />
       </>
     );
   }
