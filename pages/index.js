@@ -21,7 +21,7 @@ class Index extends Component {
         <FeaturedSolutions />
         <FunFacts />
         <Press />
-        <Clients />
+        {/* <Clients /> */}
         <FreeTrial />
         <Footer />
       </>
