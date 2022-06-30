@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import sebraeLogo from '../../images/sebraeLogo.png'
+import amanhaLogo from '../../images/amanhaLogo.png'
 
 const Press = () => {
     return (
@@ -15,6 +16,11 @@ const Press = () => {
                         <div className='custom-partner-item'>
                             <a href='https://digital.sebraers.com.br/blog/15-startups-gauchas-para-ficar-de-olho-em-2022/' target="_blank">
                                 <Image src={sebraeLogo} alt="Logo do Sebrae que leva à notícia da Greenmotor" className='' />
+                            </a>
+                        </div>
+                        <div className='custom-partner-item'>
+                            <a href='https://amanha.com.br/categoria/empreendedorismo/banrisul-vai-acelerar-30-startups-de-seis-estados-ate-setembro' target="_blank">
+                                <Image src={amanhaLogo} alt="Logo do Sebrae que leva à notícia da Greenmotor" className='' />
                             </a>
                         </div>
                     </div>
