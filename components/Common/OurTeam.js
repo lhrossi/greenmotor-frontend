@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import eduImage from '../../images/eduPhoto.png';
 import rodrigoImage from '../../images/rodrigoPhoto.png';
+import luizImage from '../../images/luizPhoto.png';
 import azimutImage from '../../images/azimutPhoto.png';
 import playDeliveryImage from '../../images/playDeliveryPhoto.png';
-import crescendoImage from '../../images/crescendoLogo.png';
+import cognitivaPhoto from '../../images/cognitivaPhoto.png';
+import starLearningPhoto from '../../images/starLearningPhoto.png';
 
 class OurTeam extends Component {
     render() {
@@ -17,13 +18,14 @@ class OurTeam extends Component {
                             <br />
                             <br />
                             <br />
-                            <h2 className='text-color-white'>Sobre os Founders</h2>
+                            <h2 className='text-color-white'>Sobre os C-Levels</h2>
                         </div>
                         <div className='flex-about-us'>
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
                                     <br />
                                     <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
+                                    <br />
                                     <h1 className='text-color-white text-margin-top'>EDU KAUTZ</h1>
                                     <br />
                                     <h2 className='text-color-white'>Founder & CEO</h2>
@@ -32,16 +34,27 @@ class OurTeam extends Component {
                                     <Image src={playDeliveryImage} alt="Logo da PlayDelivery" />
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12">
+                            <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
                                     <br />
                                     <Image src={rodrigoImage} alt="Foto do co-fundador Rodrigo Villa" />
-                                    <h1 className='text-color-white text-margin-top' >RODRIGO VILLA REAL</h1>
+                                    <h1 className='text-color-white text-margin-top' >RODRIGO VILLA</h1>
                                     <br />
                                     <h2 className='text-color-white'>Co-Founder & CFO</h2>
                                     <br />
                                     <p className='text-color-white'>Oito anos de experiência no mercado financeiro, com passagem pelo Banco Renner, Azimut Wealth Management e Crescendo Group. Especialista em Wealth Management. Relaciona-se e investe no ecossistema de startups há três anos.</p>
                                     <Image src={azimutImage} alt="Logo da Azimut" />
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-12">
+                                <div className='sobre-nos'>
+                                    <Image src={luizImage} alt="Foto do co-fundador Rodrigo Villa" />
+                                    <h1 className='text-color-white text-margin-top' >LUIZ ROSSI</h1>
+                                    <br />
+                                    <h2 className='text-color-white'>CTO</h2>
+                                    <br />
+                                    <p className='text-color-white'>Doutor em Computação pela UFRGS, CEO da Cognitiva Brasil (vencedora do SEBRAE-RS Digital 2019, finalista do Finep Startup 2018), CTO da StarLearning (4ª colocada no BRDE Labs 2020).</p>
+                                    <Image src={cognitivaPhoto} alt="Logo da Azimut" />
                                 </div>
                             </div>
                         </div>
