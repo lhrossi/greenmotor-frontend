@@ -21,7 +21,7 @@ const AcceleratedBySection = () => {
                         <div className="col-lg-3 col-sm-6">
                             <div className="custom-partner-item">
                                 <a
-                                    href=""
+                                    href="https://www.navi.com.ai/"
                                     target="_blank"
                                 >
                                     <Image
@@ -35,7 +35,7 @@ const AcceleratedBySection = () => {
 
                         <div className="col-lg-3 col-sm-6"><div className="custom-partner-item">
                                 <a
-                                    href=""
+                                    href="https://www.oracle.com/br/startup/"
                                     target="_blank"
                                 >
                                     <Image
@@ -48,7 +48,7 @@ const AcceleratedBySection = () => {
 
                         <div className="col-lg-3 col-sm-6"><div className="custom-partner-item">
                                 <a
-                                    href=""
+                                    href="https://promo.banrisul.com.br/bdg/link/banritech.html"
                                     target="_blank"
                                 >
                                     <Image
@@ -61,7 +61,7 @@ const AcceleratedBySection = () => {
 
                         <div className="col-lg-3 col-sm-6"><div className="custom-partner-item">
                                 <a
-                                    href=""
+                                    href="https://www.inovativa.online/"
                                     target="_blank"
                                 >
                                     <Image
