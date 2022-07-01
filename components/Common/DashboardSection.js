@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import DashboardImage2 from '../../images/saas-banner/dashboard.png';
+import DashboardImageBlack from '../../images/macbookNewPhoto.png';
 
 const DashboardSection = () => {
     return (
@@ -14,7 +15,7 @@ const DashboardSection = () => {
                     <div className="row align-items-center col-lg-12">
                         <div className='custom-partner-item'>
                             <a href='https://digital.sebraers.com.br/blog/15-startups-gauchas-para-ficar-de-olho-em-2022/' target="_blank">
-                                <Image src={DashboardImage2} alt="Logo do Sebrae que leva à notícia da Greenmotor" className='' />
+                                <Image src={DashboardImageBlack} alt="Logo do Sebrae que leva à notícia da Greenmotor" className='' />
                             </a>
                         </div>
                     </div>
