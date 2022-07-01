@@ -4,7 +4,7 @@ import sebraeLogo from '../../images/sebraeLogo.png'
 import sebraeLogoColor from '../../images/sebraeLogoColor.png'
 import amanhaLogo from '../../images/amanhaLogo.png'
 
-const Press = () => {
+const AcceleratedBySection = () => {
     return (
         <>
             <section className="partner-area ptb-100 bg-black">
@@ -31,4 +31,4 @@ const Press = () => {
     )
 }
 
-export default Press
+export default AcceleratedBySection
