@@ -53,7 +53,7 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: "Overpass", "Kimberley", sans-serif;
-  background-color: #000000;
+  background-color: #1E1E1E;
 }
 
 @font-face {
@@ -350,7 +350,7 @@ Preloader Area CSS
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: transparent;
+  background: #1E1E1E;
   top: 0;
   left: 0;
 }
@@ -390,7 +390,7 @@ Preloader Area CSS
 .preloader .loader .shadow {
   width: 100%;
   height: 5px;
-  background: #000000;
+  background: #1E1E1E;
   opacity: 0.1;
   position: absolute;
   top: 59px;
@@ -409,7 +409,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #000000;
+  background: #1E1E1E;
   -webkit-transition: 0.9s;
   transition: 0.9s;
 }
@@ -1407,7 +1407,7 @@ Navbar Area CSS
 }
 
 .adani-nav .navbar .others-options .burger-menu:hover span {
-  background: #000000;
+  background: #1E1E1E;
 }
 
 .adani-nav .navbar .others-options .burger-menu:hover span:nth-child(3) {
@@ -1434,7 +1434,7 @@ Navbar Area CSS
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background: #000000 !important;
+  background: #1E1E1E !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-transition: 0.5s;
@@ -1500,7 +1500,7 @@ Navbar Area CSS
   right: 0;
   top: 0;
   height: 45px;
-  background: transparent;
+  background: #1E1E1E;
   border: none;
   width: 45px;
   outline: 0;
@@ -1624,7 +1624,7 @@ Navbar Area CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #1E1E1E;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -1757,7 +1757,7 @@ Navbar Area CSS
 
 .navbar-toggler {
   border: none;
-  background: #000000 !important;
+  background: #1E1E1E !important;
   padding: 10px;
   border-radius: 0;
 }
@@ -1914,7 +1914,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content form button:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
 }
 
@@ -3265,7 +3265,7 @@ Services Area CSS
   width: 0;
   height: 100%;
   z-index: -1;
-  background-color: #000000;
+  background-color: #1E1E1E;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3726,7 +3726,7 @@ Fun Facts Area CSS
 .fun-facts-area {
   position: relative;
   z-index: 1;
-  background: #000000;
+  background: #1E1E1E;
 }
 
 .fun-facts-area::before {
@@ -4521,7 +4521,7 @@ Solution Area CSS
   width: 100%;
   z-index: -1;
   height: 100%;
-  background-color: #000000;
+  background-color: #1E1E1E;
   opacity: 0.8;
 }
 
@@ -5047,7 +5047,7 @@ Partner Area CSS
 
 .partner-slides.owl-theme .owl-nav .owl-prev:hover,
 .partner-slides.owl-theme .owl-nav .owl-next:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
 }
 
 .partner-slides.owl-theme .owl-nav .owl-next {
@@ -5127,7 +5127,7 @@ Blog Area CSS
   top: 3px;
   width: 1px;
   height: 13px;
-  background-color: #000000;
+  background-color: #1E1E1E;
   content: "";
   -webkit-transform: rotate(10deg);
   transform: rotate(10deg);
@@ -5843,7 +5843,7 @@ blockquote::after,
 .comments-area .comment-respond .form-submit input:hover,
 .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #1E1E1E;
 }
 
 /*================================================
@@ -6583,7 +6583,7 @@ Shop Area CSS
   bottom: -46px;
   left: 0;
   width: 100%;
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
   padding: 18px 20px 13px;
   text-transform: uppercase;
@@ -6875,7 +6875,7 @@ Product Details Area CSS
   content: "";
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #1E1E1E;
   display: block;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -6901,7 +6901,7 @@ Product Details Area CSS
   .inp-cbx:checked
   + .cbx
   span:first-child {
-  background: #000000;
+  background: #1E1E1E;
   border-color: #000000;
   -webkit-animation: wave 0.4s ease;
   animation: wave 0.4s ease;
@@ -6944,7 +6944,7 @@ Product Details Area CSS
 }
 
 .product-details-desc .buy-checkbox-btn .btn-light:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
 }
 
@@ -7019,7 +7019,7 @@ Product Details Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: #1E1E1E;
   margin: 2px;
   border-radius: 50%;
   -webkit-transition: 0.5s;
@@ -7572,7 +7572,7 @@ Cart Area CSS
   right: 0;
   top: 0;
   height: 53px;
-  background: #000000;
+  background: #1E1E1E;
   color: #ffffff;
   border: none;
   padding: 0 25px;
@@ -8328,7 +8328,7 @@ Footer Area CSS
 =================================================*/
 .footer-area {
   padding-top: 80px;
-  background-color: #000000;
+  background-color: #1E1E1E;
 }
 
 .single-footer-widget {
@@ -9073,7 +9073,7 @@ Start IT Startup Page CSS
 }
 
 .work-card .content .work-btn:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
 }
 
@@ -9369,7 +9369,7 @@ SEO Startup Page CSS
 }
 
 .seo-banner-slider.owl-theme .owl-nav .owl-prev:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
 }
 
@@ -9390,7 +9390,7 @@ SEO Startup Page CSS
 }
 
 .seo-banner-slider.owl-theme .owl-nav .owl-next:hover {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
 }
 
@@ -9714,7 +9714,7 @@ SaaS Startup Page CSS
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #1E1E1E;
   z-index: 0;
 }
 
@@ -9758,7 +9758,7 @@ SaaS Startup Page CSS
 }
 
 .saas-banner-two .saas-banner-image .solution-video .video-btn {
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
@@ -9897,7 +9897,7 @@ AI & Machine Learning Page CSS
     .others-options
     .burger-menu
     span {
-    background: #000000;
+    background: #1E1E1E;
   }
 
   .navbar-area-two .navbar-brand .black-logo {
@@ -10060,7 +10060,7 @@ AI & Machine Learning Page CSS
   transition: 0.5s;
   padding: 30px 25px;
   margin-bottom: 30px;
-  background-color: #000000;
+  background-color: #1E1E1E;
   color: #ffffff;
   border-radius: 10%;
 }
@@ -10321,7 +10321,7 @@ Meu CSS
 }
 
 .bg-black {
-  background-color: #000000;
+  background-color: #1E1E1E;
 }
 
 .button-background-color {
