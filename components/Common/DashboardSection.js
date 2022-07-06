@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import DashboardImage2 from "../../images/saas-banner/dashboard.png";
-import DashboardImageBlack from "../../images/macbookNewPhoto.png";
+import DashboardImage from "../../images/dashboard.png";
+import DashboardImage2 from "../../images/dashboard2.png";
+import DashboardImageFrame from "../../images/macbookNewPhoto.png";
 
 const DashboardSection = () => {
     return (
@@ -17,12 +18,32 @@ const DashboardSection = () => {
                     <div className="row align-items-center col-lg-12">
                         <div className="custom-partner-item">
                             <Image
-                                src={DashboardImageBlack}
+                                src={DashboardImageFrame}
                                 alt="Logo do Sebrae que leva à notícia da Greenmotor"
                                 className=""
                             />
                         </div>
                     </div>
+
+                    <br/>
+
+                    <div className="row align-items-center col-lg-12">
+                        <div className="custom-partner-item">
+                            <Image
+                                src={DashboardImage}
+                                alt="Logo do Sebrae que leva à notícia da Greenmotor"
+                                className=""
+                            />
+                        </div>
+                        <div className="custom-partner-item">
+                            <Image
+                                src={DashboardImage2}
+                                alt="Logo do Sebrae que leva à notícia da Greenmotor"
+                                className=""
+                            />
+                        </div>
+                    </div>
+                    
                 </div>
             </section>
         </>
