@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/image';
-import DashboardImage2 from '../../images/saas-banner/dashboard.png';
-import DashboardImageBlack from '../../images/macbookNewPhoto.png';
+import React from "react";
+import Image from "next/image";
+import DashboardImage2 from "../../images/saas-banner/dashboard.png";
+import DashboardImageBlack from "../../images/macbookNewPhoto.png";
 
 const DashboardSection = () => {
     return (
@@ -9,20 +9,24 @@ const DashboardSection = () => {
             <section className="partner-area ptb-100 bg-black">
                 <div className="container">
                     <div className="section-title">
-                        <h2 className='text-color-white'>Dashboards interativos e de fácil leitura</h2>
+                        <h2 className="text-color-white">
+                            Dashboards interativos e de fácil leitura
+                        </h2>
                     </div>
 
                     <div className="row align-items-center col-lg-12">
-                        <div className='custom-partner-item'>
-                            <a href='https://digital.sebraers.com.br/blog/15-startups-gauchas-para-ficar-de-olho-em-2022/' target="_blank">
-                                <Image src={DashboardImageBlack} alt="Logo do Sebrae que leva à notícia da Greenmotor" className='' />
-                            </a>
+                        <div className="custom-partner-item">
+                            <Image
+                                src={DashboardImageBlack}
+                                alt="Logo do Sebrae que leva à notícia da Greenmotor"
+                                className=""
+                            />
                         </div>
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default DashboardSection
+export default DashboardSection;
