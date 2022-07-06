@@ -54,7 +54,7 @@ class OurTeam extends Component {
                                     <h2 className='text-color-white'>CTO</h2>
                                     <br />
                                     <p className='text-color-white'>Doutor em Computação pela UFRGS, CEO da Cognitiva Brasil (vencedora do SEBRAE-RS Digital 2019, finalista do Finep Startup 2018), CTO da StarLearning (4ª colocada no BRDE Labs 2020).</p>
-                                    <Image src={cognitivaPhoto} alt="Logo da Azimut" />
+                                    <Image src={starLearningPhoto} alt="Logo da Azimut" />
                                 </div>
                             </div>
                         </div>
