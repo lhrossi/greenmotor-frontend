@@ -23,10 +23,9 @@ class OurTeam extends Component {
                         <div className='flex-about-us'>
                             <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
-                                    <br />
                                     <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
                                     <br />
-                                    <h1 className='text-color-white text-margin-top'>EDU KAUTZ</h1>
+                                    <h1 className='text-color-white text-margin-top'>EDUARDO KAUTZ</h1>
                                     <br />
                                     <h2 className='text-color-white'>Founder & CEO</h2>
                                     <br />
@@ -36,7 +35,6 @@ class OurTeam extends Component {
                             </div>
                             <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
-                                    <br />
                                     <Image src={rodrigoImage} alt="Foto do co-fundador Rodrigo Villa" />
                                     <h1 className='text-color-white text-margin-top' >RODRIGO VILLA</h1>
                                     <br />
@@ -49,7 +47,7 @@ class OurTeam extends Component {
                             <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
                                     <Image src={luizImage} alt="Foto do co-fundador Rodrigo Villa" />
-                                    <h1 className='text-color-white text-margin-top' >LUIZ ROSSI</h1>
+                                    <h1 className='text-color-white text-margin-top' >LUIZ LONGHI ROSSI</h1>
                                     <br />
                                     <h2 className='text-color-white'>CTO</h2>
                                     <br />
