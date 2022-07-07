@@ -11,6 +11,7 @@ import InDevelopment from "../components/Common/InDevelopment";
 import DashboardSection from "../components/Common/DashboardSection";
 import AcceleratedBySection from "../components/Common/AcceleratedBySection";
 import TecnopucSection from "../components/Common/TecnopucSection";
+import AmchamSection from "../components/Common/AmchamSection";
 
 class Index extends Component {
   render() {
@@ -25,6 +26,7 @@ class Index extends Component {
         <AcceleratedBySection />
         <Press />
         <TecnopucSection />
+        <AmchamSection />
         {/* <Clients /> */}
         <FreeTrial />
         <Footer />
