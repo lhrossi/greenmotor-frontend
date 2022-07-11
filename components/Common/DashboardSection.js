@@ -7,7 +7,7 @@ import DashboardImage3 from "../../images/dashboard3.png";
 const DashboardSection = () => {
     return (
         <>
-            <section className="partner-area ptb-100 bg-black">
+            <section id="DashboardSection" className="partner-area ptb-100 bg-black">
                 <div className="container">
                     <div className="custom-section-title">
                         <h2 className="text-color-white">
