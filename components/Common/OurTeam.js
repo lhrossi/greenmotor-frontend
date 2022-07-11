@@ -7,6 +7,7 @@ import azimutImage from '../../images/azimutPhoto.png';
 import playDeliveryImage from '../../images/playDeliveryPhoto.png';
 import cognitivaPhoto from '../../images/cognitivaPhoto.png';
 import starLearningPhoto from '../../images/starLearningPhoto.png';
+import crescendoLogo from '../../images/crescendoLogo.png';
 
 class OurTeam extends Component {
     render() {
@@ -25,7 +26,7 @@ class OurTeam extends Component {
                                 <div className='sobre-nos'>
                                     <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
                                     <br />
-                                    <h1 className='text-color-white text-margin-top'>EDUARDO KAUTZ</h1>
+                                    <h1 className='text-color-white text-margin-top'>EDU <br /> KAUTZ</h1>
                                     <br />
                                     <h2 className='text-color-white'>Founder & CEO</h2>
                                     <br />
@@ -36,12 +37,13 @@ class OurTeam extends Component {
                             <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
                                     <Image src={rodrigoImage} alt="Foto do co-fundador Rodrigo Villa" />
-                                    <h1 className='text-color-white text-margin-top' >RODRIGO VILLA</h1>
+                                    <h1 className='text-color-white text-margin-top' >RODRIGO VILLA REAL</h1>
                                     <br />
                                     <h2 className='text-color-white'>Co-Founder & CFO</h2>
                                     <br />
                                     <p className='text-color-white'>Oito anos de experiência no mercado financeiro, com passagem pelo Banco Renner, Azimut Wealth Management e Crescendo Group. Especialista em Wealth Management. Relaciona-se e investe no ecossistema de startups há três anos.</p>
                                     <Image src={azimutImage} alt="Logo da Azimut" />
+                                    <Image src={crescendoLogo} alt="Logo da Azimut" />
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12">
@@ -53,6 +55,9 @@ class OurTeam extends Component {
                                     <br />
                                     <p className='text-color-white'>Doutor em Computação pela UFRGS, CEO da Cognitiva Brasil (vencedora do SEBRAE-RS Digital 2019, finalista do Finep Startup 2018), CTO da StarLearning (4ª colocada no BRDE Labs 2020).</p>
                                     <Image src={starLearningPhoto} alt="Logo da Azimut" />
+                                    <br />
+                                    <br />
+                                    {/* <Image src={cognitivaPhoto} alt="Logo da Azimut" /> */}
                                 </div>
                             </div>
                         </div>
