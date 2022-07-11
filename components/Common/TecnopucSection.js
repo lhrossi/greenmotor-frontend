@@ -5,9 +5,9 @@ import TecnopucLogo from "../../images/TecnopucLogo.png";
 const TecnopucSection = () => {
     return (
         <>
-            <section className="partner-area ptb-80 bg-white">
+            <section className="partner-area pt-80 bg-gray">
                 <div className="container">
-                    <div className="section-title">
+                    <div className="custom-section-title">
                         <h2 className="text-color-black">
                             Startup pertencente
                         </h2>

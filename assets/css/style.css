@@ -96,6 +96,14 @@ button:focus {
   padding-bottom: 70px;
 }
 
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
 .ptb-80 {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -4948,13 +4956,13 @@ Partner Area CSS
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 
-.partner-area .row {
-  /* margin-left: -5px;
-  margin-right: -5px; */
-}
+/* .partner-area .row {
+  margin-left: -5px;
+  margin-right: -5px;
+} */
 
 .single-partner-item {
   text-align: center;
@@ -10054,8 +10062,8 @@ AI & Machine Learning Page CSS
 }
 
 .featured-solution-card {
-  -webkit-box-shadow: 0px 5px 20px 0px rgba(105, 146, 234, 0.14);
-  box-shadow: 0px 5px 20px 0px rgba(105, 146, 234, 0.14);
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 254, 0, 0.14);
+  box-shadow: 0px 5px 20px 0px rgba(0, 254, 0, 0.14);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 30px 25px;
@@ -10317,7 +10325,7 @@ Meu CSS
 }
 
 .text-color-black {
-  color: #000000;
+  color: #1E1E1E;
 }
 
 .bg-black {
@@ -10522,6 +10530,14 @@ Meu CSS
   background-color: #ffffff;
   color: #000000;
   transition: 0.5s;
+}
+
+.custom-section-title {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
 }
 
 @media only screen and (max-width: 767px) {

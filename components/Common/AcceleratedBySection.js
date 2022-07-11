@@ -9,10 +9,10 @@ import inovativaPhoto from "../../images/inovativaPhoto.png";
 const AcceleratedBySection = () => {
     return (
         <>
-            <section className="pt-100 pb-70 bg-gray">
+            <section className="pt-100 pb-70 bg-black">
                 <div className="container">
-                    <div className="section-title">
-                        <h2 className="text-color-black">
+                    <div className=" pb-70 custom-section-title">
+                        <h2 className="text-color-white">
                             Startup acelerada por
                         </h2>
                     </div>

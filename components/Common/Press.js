@@ -7,10 +7,10 @@ import amanhaLogo from '../../images/amanhaLogo.png'
 const AcceleratedBySection = () => {
     return (
         <>
-            <section className="partner-area ptb-100 bg-black">
+            <section className="partner-area ptb-100 bg-gray">
                 <div className="container">
-                    <div className="section-title">
-                        <h2 className='text-color-white'>Greenmotor na mídia</h2>
+                    <div className="custom-section-title">
+                        <h2 className='text-color-black'>Greenmotor na mídia</h2>
                     </div>
 
                     <div className="row align-items-center col-lg-12">

@@ -4,14 +4,14 @@ import Link from 'next/link';
 class FeaturedSolutions extends Component {
     render() {
         return (
-            <section className="pt-100 pb-70 bg-gray">
+            <section className="pt-100 pb-70 bg-black">
                 <div className="container">
-                    <div className="section-title">
-                        <h2 className='text-color-black'>Nossos diferenciais</h2>
+                    <div className="custom-section-title">
+                        <h2 className='text-color-white'>Nossos diferenciais</h2>
                         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> */}
                     </div>
 
-                    <div className="row">
+                    <div className="pt-70 row">
                         <div className="col-lg-3 col-sm-6">
                             <div className="featured-solution-card bg-black">
                                 <i className='bx bxs-analyse'></i>
