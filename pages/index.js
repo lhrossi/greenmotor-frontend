@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "../components/Layout/Navbar";
 import FeaturedSolutions from "../components/HomeEight/FeaturedSolutions";
 import FunFacts from "../components/Common/FunFacts";
+import VideoSection from "../components/Common/VideoSection";
 import FreeTrial from "../components/HomeEight/FreeTrial";
 import Footer from "../components/Layout/Footer";
 import Banner from "../components/HomeSeven/Banner";
@@ -22,7 +23,7 @@ class Index extends Component {
         <AcceleratedBySection />
         <TecnopucSection />
         <AmchamSection />
-        {/* <VideoSection /> */}
+        <VideoSection />
         <FeaturedSolutions />
         <FunFacts />
         <FreeTrial />
