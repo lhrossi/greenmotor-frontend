@@ -22,7 +22,7 @@ class Index extends Component {
         <Press />
         <AcceleratedBySection />
         <TecnopucSection />
-        <AmchamSection />
+        {/* <AmchamSection /> */}
         <VideoSection />
         <FeaturedSolutions />
         <FunFacts />

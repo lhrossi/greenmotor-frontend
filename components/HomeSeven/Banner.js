@@ -56,7 +56,7 @@ class Banner extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
-                                                    <div className="banner-btn">
+                                                    <div className="banner-btn custom-banner-btn">
                                                             <a href="#DashboardSection" className="custom-default-btn-2">
                                                                 Nosso Produto
                                                                 <span></span>
