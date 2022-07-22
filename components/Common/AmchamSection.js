@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AmchamLogo from "../../images/amchamLogo.png";
-import WowLogo from "../../images/wowLogo.png";
+
 
 const AmchamSection = () => {
     return (
