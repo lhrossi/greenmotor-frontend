@@ -3580,6 +3580,13 @@
   }
 }
 
+.custom-responsive-product-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
   .main-banner {
