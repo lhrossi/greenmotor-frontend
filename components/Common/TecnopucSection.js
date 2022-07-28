@@ -14,7 +14,7 @@ const TecnopucSection = () => {
                         <div className="align-items-center col-lg-3 col-sm-6">
                             <div className="custom-partner-item">
                                 <div className="custom-section-title">
-                                    <h2 className="text-color-black">
+                                    <h2 className="text-color-black-title">
                                         Startup pertencente
                                     </h2>
                                 </div>
@@ -30,7 +30,7 @@ const TecnopucSection = () => {
                         <div className="align-items-center col-lg-3 col-sm-6">
                             <div className="custom-partner-item">
                                 <div className="custom-section-title">
-                                    <h2 className="text-color-black">
+                                    <h2 className="text-color-black-title">
                                         Participante <br /><br />
                                     </h2>
                                 </div>
@@ -46,7 +46,7 @@ const TecnopucSection = () => {
                         <div className="align-items-center col-lg-3 col-sm-6">
                             <div className="custom-partner-item">
                                 <div className="custom-section-title">
-                                    <h2 className="text-color-black">
+                                    <h2 className="text-color-black-title">
                                         Finalista <br /><br />
                                         {``}
                                     </h2>
@@ -63,7 +63,7 @@ const TecnopucSection = () => {
                         <div className="align-items-center col-lg-3 col-sm-6">
                             <div className="custom-partner-item">
                                 <div className="custom-section-title">
-                                    <h2 className="text-color-black">
+                                    <h2 className="text-color-black-title">
                                         Startup pertencente
                                     </h2>
                                 </div>
