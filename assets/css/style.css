@@ -10543,7 +10543,8 @@ Meu CSS
 .custom-default-btn-2 {
   border: none;
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: baseline;
   text-align: center;
   overflow: hidden;
   z-index: 1;
@@ -10563,7 +10564,12 @@ Meu CSS
 
 .custom-banner-btn {
   position: relative;
-  float: left;
+  float: inline-start;
+
+}
+
+.custom-responsive-product-button-div {
+    
 }
 
 @media only screen and (max-width: 767px) {
