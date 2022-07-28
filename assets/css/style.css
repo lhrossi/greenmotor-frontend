@@ -10577,9 +10577,8 @@ Meu CSS
 }
 
 .custom-banner-btn {
-  position: relative;
-  float: inline-start;
-
+  display: flex;
+  align-items: baseline;
 }
 
 .custom-responsive-product-button-div {
