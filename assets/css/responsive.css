@@ -1962,6 +1962,12 @@
     left: auto;
     right: -5px;
   }
+  .custom-responsive-product-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -3577,15 +3583,16 @@
       justify-content: center;
       align-items: stretch;
       align-content: stretch;
-  }
+    }
+
+    .custom-responsive-product-button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 }
 
-.custom-responsive-product-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
