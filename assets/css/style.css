@@ -10551,7 +10551,7 @@ Meu CSS
 
 .text-color-black-title {
   color: #1E1E1E;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 .custom-default-btn-2 {
@@ -10583,6 +10583,15 @@ Meu CSS
 
 .custom-responsive-product-button-div {
     
+}
+
+.custom-banner-button-container {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: stretch;
 }
 
 @media only screen and (max-width: 767px) {
