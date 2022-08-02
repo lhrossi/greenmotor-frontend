@@ -43,8 +43,8 @@ class Banner extends Component {
                                                 </b>
                                             </p>
 
-                                            <div className="row align-items-center">
-                                                <div className="col-lg-6">
+                                            
+                                                <div className="row custom-banner-button-container">
                                                     <div className="banner-btn">
                                                         <Link href="https://api.whatsapp.com/send?phone=555198668926&text=Gostaria%20de%20fazer%20o%20teste%20gr%C3%A1tis%20da%20Greenmotor!">
                                                             <a className="default-btn-two">
@@ -54,16 +54,8 @@ class Banner extends Component {
                                                             </a>
                                                         </Link>
                                                     </div>
+                                                   
                                                 </div>
-                                                <div className="col-lg-6">
-                                                    <div className=" banner-btn custom-banner-btn custom-responsive-product-button ">
-                                                            <a href="#DashboardSection" className="custom-default-btn-2">
-                                                                Nosso Produto
-                                                                <span></span>
-                                                            </a>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
