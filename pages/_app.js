@@ -19,6 +19,7 @@ import withRedux from 'next-redux-wrapper';
 import { initStore } from '../store/reducers/cartReducer';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+import FloatingWhatsApp from 'react-floating-whatsapp'
 
 
 export default withRedux(initStore)(
@@ -47,6 +48,9 @@ export default withRedux(initStore)(
                         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                         <title>Greenmotor AI</title>
                         <link rel="shortcut icon" type="image/png" href="/favicon.png"></link>
+                        <meta property='og:title' content='Greenmotor AI'></meta>
+                        <meta property='og:description' content='Menos desperdício de alimentos, mais lucros aos supermercados'></meta>
+                        <meta property='og:image' content='/favicon.png' ></meta>
                     </Head>
 
                     <Provider store={store}>
@@ -58,6 +62,9 @@ export default withRedux(initStore)(
 
                     {/* Go Top Button */}
                     {/* <GoTop scrollStepInPx="50" delayInMs="16.66" /> */}
+                    <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" className="float-wpp" target="_blank">
+                        <i aria-hidden className="fa fa-whatsapp my-float-wpp"></i>
+                    </a>
                 </>
             );
         }

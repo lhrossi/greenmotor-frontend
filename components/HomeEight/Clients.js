@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LogoDiaCinza from '../../images/mercadoDiaLogo.png';
 import LogoMagmaxxCinza from '../../images/mercadoMagmaxxLogo.png';
+import LogoCentershopCinza from '../../images/centershopLogo.png';
+import LogoLarissa from '../../images/larissaLogo.png';
 
 class Clients extends Component {
     render() {
@@ -17,10 +19,10 @@ class Clients extends Component {
 
                         <div className="row align-items-center col-lg-12">
                             <div className='custom-partner-item'>
-                                <Image src={LogoDiaCinza} alt="Logo supermercado dia" className='' />
+                                <Image src={LogoCentershopCinza} alt="Logo CenterShop" className='' />
                             </div>
                             <div className='custom-partner-item'>
-                                <Image src={LogoMagmaxxCinza} alt="Logo supermercado magmaxx" className='' />
+                                <Image src={LogoLarissa} alt="Logo Supermercado Larissa" className='' />
                             </div>
                         </div>
                     </div>

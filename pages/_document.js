@@ -16,6 +16,7 @@ class MyDocument extends Document {
                         rel="stylesheet"
                     />
                     <script src="https://kit.fontawesome.com/2aa5c5d470.js" crossOrigin="anonymous"></script>
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
                 </Head>
                 <body>
                     <Main />

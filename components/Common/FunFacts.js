@@ -20,7 +20,7 @@ class FunFacts extends Component {
                 <section className="fun-facts-area ptb-100 bg-black">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-6 col-md-12">
                                 <div className="single-fun-facts">
                                     <h3>
                                         <span className="odometer">
@@ -48,7 +48,7 @@ class FunFacts extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-6 col-md-12">
                                 <div className="single-fun-facts">
                                     <h3>
                                         <span className="odometer">
@@ -63,7 +63,7 @@ class FunFacts extends Component {
                                                     start={0}
                                                     end={
                                                         this.state.didViewCountUp
-                                                        ? 75
+                                                        ? 95
                                                         : 0
                                                     }
                                                     duration={3}
@@ -72,64 +72,11 @@ class FunFacts extends Component {
                                         </span>
                                         <span className="sign-icon">%</span>
                                     </h3>
-                                    <p>Redução de perdas</p>
+                                    <p>Precisão da previsão de vendas</p>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="single-fun-facts">
-                                    <h3>
-                                        <span className="odometer">
-                                            <VisibilitySensor
-                                                onChange={this.onVisibilityChange}
-                                                offset={{
-                                                    top: 10
-                                                }}
-                                                delayedCall
-                                                >
-                                                <CountUp
-                                                    start={0}
-                                                    end={
-                                                        this.state.didViewCountUp
-                                                        ? 15
-                                                        : 0
-                                                    }
-                                                    duration={3}
-                                                />
-                                            </VisibilitySensor>
-                                        </span>
-                                    </h3>
-                                    <p>Cases de sucesso</p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-3 col-sm-6">
-                                <div className="single-fun-facts">
-                                    <h3>
-                                        <span className="odometer">
-                                            <VisibilitySensor
-                                                onChange={this.onVisibilityChange}
-                                                offset={{
-                                                    top: 10
-                                                }}
-                                                delayedCall
-                                                >
-                                                <CountUp
-                                                    start={0}
-                                                    end={
-                                                        this.state.didViewCountUp
-                                                        ? 160
-                                                        : 0
-                                                    }
-                                                    duration={3}
-                                                />
-                                            </VisibilitySensor>
-                                        </span>
-                                        <span className="sign-icon">%</span>
-                                    </h3>
-                                    <p>Retorno do Investimento</p>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </section>
