@@ -10581,6 +10581,15 @@ Meu CSS
   align-items: baseline;
 }
 
+.custom-video-section {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+}
+
 .custom-responsive-product-button-div {
     
 }
