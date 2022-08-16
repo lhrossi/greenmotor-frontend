@@ -3,7 +3,7 @@ import Image from 'next/image';
 import BlackLogoImage from '../../images/BlackLogoTransparentBackground.png';
 import WhiteLogoImage from '../../images/WhiteLogoTransparentBackground.png';
 
-var phone = '55479225-3159';
+var phone = '554792253159';
 
 class FreeTrial extends Component {
 
@@ -11,7 +11,7 @@ class FreeTrial extends Component {
         
         console.debug(this.phone);
         if (this.props.rep === 'bellitech') {
-            phone = '555184747319';            
+            phone = '554792253159';            
           }
     }
     
