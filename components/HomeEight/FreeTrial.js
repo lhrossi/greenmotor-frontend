@@ -3,7 +3,7 @@ import Image from 'next/image';
 import BlackLogoImage from '../../images/BlackLogoTransparentBackground.png';
 import WhiteLogoImage from '../../images/WhiteLogoTransparentBackground.png';
 
-var phone = '555198668926';
+var phone = '55479225-3159';
 
 class FreeTrial extends Component {
 
