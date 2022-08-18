@@ -4,6 +4,8 @@ import Image from "next/image";
 import DashboardImage2 from "../../images/saas-banner/dashboard.png";
 import BrainImage from "../../images/brain.png";
 
+var phone = '555198668926';
+
 class Banner extends Component {
     state = {
         isOpen: false,
@@ -14,6 +16,9 @@ class Banner extends Component {
     };
 
     render() {
+        if (this.props.repphone) {
+            phone = this.props.repphone;
+          }
         return (
             <>
                 <div className="saas-banner-two">
@@ -46,7 +51,8 @@ class Banner extends Component {
                                             
                                                 <div className="row custom-banner-button-container">
                                                     <div className="banner-btn">
-                                                        <Link href="https://api.whatsapp.com/send?phone=555198668926&text=Gostaria%20de%20fazer%20o%20teste%20gr%C3%A1tis%20da%20Greenmotor!">
+                                                    
+                                                        <Link href={"https://api.whatsapp.com/send?phone="+ phone +"&text=Gostaria%20de%20fazer%20o%20teste%20gr%C3%A1tis%20da%20Greenmotor!"}>
                                                             <a className="default-btn-two">
                                                                 Teste 15 Dias
                                                                 Grátis{" "}

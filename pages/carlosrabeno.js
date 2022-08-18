@@ -17,7 +17,7 @@ class Index extends Component {
     return (
       <>
         <Navbar repphone='5551991632731'/>
-        <Banner />
+        <Banner repphone='5551991632731'/>
         <DashboardSection />
         <Press />
         <AcceleratedBySection />
@@ -27,7 +27,7 @@ class Index extends Component {
         <FeaturedSolutions />
         <FunFacts />
         <FreeTrial repphone='5551991632731'/>
-        <Footer />
+        <Footer repphone='5551991632731'/>
       </>
     );
   }

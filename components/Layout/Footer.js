@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
+var phone = '555198668926';
+
 class Footer extends Component {
+    
     render() {
+        if (this.props.repphone) {
+            phone = this.props.repphone;
+          }
         let currentYear = new Date().getFullYear();
         return (
             <>
@@ -31,7 +37,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" target='_blank'>Contato</a>
+                                            <a href={"https://api.whatsapp.com/send?phone="+phone+"&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F"} target='_blank'>Contato</a>
                                         </li>
                                     </ul>
                                 </div>

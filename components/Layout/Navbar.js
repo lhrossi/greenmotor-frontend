@@ -58,9 +58,8 @@ class Navbar extends Component {
     }
 
     render() {
-        
         if (this.props.repphone) {
-            phone = this.props.repphone;            
+            phone = this.props.repphone;
           }
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
