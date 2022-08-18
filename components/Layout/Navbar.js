@@ -5,6 +5,8 @@ import SidebarModal from '../SidebarModal/SidebarModal';
 import Image from 'next/image'
 import LogoImage from '../../images/logo.png'
 
+var phone = '555198668926';
+
 class Navbar extends Component {
 
     // Sidebar Modal
@@ -56,7 +58,10 @@ class Navbar extends Component {
     }
 
     render() {
-        let { products } = this.props;
+        
+        if (this.props.repphone) {
+            phone = this.props.repphone;            
+          }
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -98,7 +103,7 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                                <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" target='_blank' className="nav-link">Contato</a>
+                                                <a href={"https://api.whatsapp.com/send?phone="+phone+"&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F"} target='_blank' className="nav-link">Contato</a>
                                         </li>
                                     </ul>
                                 </div>
