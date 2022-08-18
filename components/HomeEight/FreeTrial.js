@@ -3,19 +3,15 @@ import Image from 'next/image';
 import BlackLogoImage from '../../images/BlackLogoTransparentBackground.png';
 import WhiteLogoImage from '../../images/WhiteLogoTransparentBackground.png';
 
-var phone = '554792253159';
+var phone = '555198668926';
 
 class FreeTrial extends Component {
-
-    componentDidMount(){
-        
-        console.debug(this.phone);
-        if (this.props.rep === 'bellitech') {
-            phone = '554792253159';            
-          }
-    }
     
     render() {
+        if (this.props.repphone) {
+            phone = this.props.repphone;            
+          }
+
         return (
             <section className="free-trial-area ptb-100 bg-black">
                 <div className="container">

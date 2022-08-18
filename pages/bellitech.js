@@ -16,7 +16,7 @@ class Index extends Component {
   render() {
     return (
       <>
-        <Navbar />
+        <Navbar repphone='554792253159'/>
         <Banner />
         <DashboardSection />
         <Press />
@@ -26,7 +26,7 @@ class Index extends Component {
         <VideoSection />
         <FeaturedSolutions />
         <FunFacts />
-        <FreeTrial rep='bellitech'/>
+        <FreeTrial repphone='554792253159'/>
         <Footer />
       </>
     );
