@@ -17,13 +17,11 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bxs-analyse'></i>
                                 <h3 className=''>
                                     <Link href="/">
-                                        <a>Extração de Dados</a>
+                                        <span>Extração de Dados</span>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Integramos com os seus sistemas de gestão empresarial e de estoque</p>
-                                <Link href="/">
-                                    <a className="read-more">Saber mais</a>
-                                </Link>
+                                
                             </div>
                         </div>
 
@@ -32,13 +30,11 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-shape-circle'></i>
                                 <h3>
                                     <Link href="/">
-                                        <a>Fácil Visualização</a>
+                                        <span>Fácil Visualização</span>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Tenha insights mais rápidos com nossos dashboards personalizados</p>
-                                <Link href="/">
-                                    <a className="read-more">Saber mais</a>
-                                </Link>
+                               
                             </div>
                         </div>
 
@@ -47,13 +43,11 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-badge-check'></i>
                                 <h3>
                                     <Link href="/">
-                                        <a>Previsão de Vendas</a>
+                                        <span>Previsão de Vendas</span>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Tenha uma maior assertividade sobre quando e quanto comprar </p>
-                                <Link href="/">
-                                    <a className="read-more">Saber mais</a>
-                                </Link>
+                                
                             </div>
                         </div>
 
@@ -62,13 +56,11 @@ class FeaturedSolutions extends Component {
                                 <i className='bx bx-layer'></i>
                                 <h3>
                                     <Link href="/">
-                                        <a>Modelos de IA sofisticados</a>
+                                        <span>Modelos de IA sofisticados</span>
                                     </Link>
                                 </h3>
                                 <p className='text-color-white'>Aproveite cada informação já disponível nos seus sistemas</p>
-                                <Link href="/">
-                                    <a className="read-more">Saber mais</a>
-                                </Link>
+                               
                             </div>
                         </div>
                     </div>

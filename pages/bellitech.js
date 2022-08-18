@@ -27,7 +27,7 @@ class Index extends Component {
         <FeaturedSolutions />
         <FunFacts />
         <FreeTrial repphone='554792253159'/>
-        <Footer repphone='554792253159'/>
+        <Footer repphone='554792253159' email='andre@greenmotor.ai'/>
       </>
     );
   }
