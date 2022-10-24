@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Link from '../../utils/ActiveLink';
-import SidebarModal from '../SidebarModal/SidebarModal';
 import Image from 'next/image'
 import LogoImage from '../../images/logo.png'
 
@@ -15,7 +14,6 @@ class Navbar extends Component {
     };
     toggleModal = () => {
         this.setState({
-            sidebarModal: !this.state.sidebarModal
         });
     }
 
@@ -111,8 +109,6 @@ class Navbar extends Component {
                     </div>
                 </div>
 
-                {/* Right Sidebar Modal */}
-                <SidebarModal onClick={this.toggleModal} active={this.state.sidebarModal ? 'active' : ''} />
             </>
         );
     }
