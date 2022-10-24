@@ -10442,9 +10442,8 @@ Meu CSS
   
 }
 
-.founder-image-padding {
-  margin-bottom: 12rem;
-  padding-bottom: 12rem;
+.padding-alligner {
+  margin: 53px 0;
 }
 
 .text-margin-top {
