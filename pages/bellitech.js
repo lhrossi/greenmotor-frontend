@@ -16,8 +16,8 @@ class Index extends Component {
   render() {
     return (
       <>
-        <Navbar repphone='555198668926'/>
-        <Banner repphone='555198668926'/>
+        <Navbar repphone='554792253159'/>
+        <Banner repphone='554792253159'/>
         <DashboardSection />
         <Press />
         <AcceleratedBySection />
@@ -26,8 +26,8 @@ class Index extends Component {
         <VideoSection />
         <FeaturedSolutions />
         <FunFacts />
-        <FreeTrial repphone='555198668926'/>
-        <Footer repphone='555198668926'/>
+        <FreeTrial repphone='554792253159'/>
+        <Footer repphone='554792253159' email='andre@greenmotor.ai'/>
       </>
     );
   }

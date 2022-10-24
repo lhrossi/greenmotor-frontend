@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
+var phone = '555198668926';
+var email = 'contato@greenmotor.ai';
+
 class Footer extends Component {
+    
     render() {
+        if (this.props.repphone) {
+            phone = this.props.repphone;
+          }
+        if (this.props.email) {
+            email = this.props.email;
+        }
         let currentYear = new Date().getFullYear();
         return (
             <>
@@ -16,7 +26,7 @@ class Footer extends Component {
                                         <li>
                                             <i className="flaticon-email"></i>
                                             <span>Ficou com alguma dúvida?</span>
-                                            <a href="mailto:contato@greenmotor.ai">contato@greenmotor.ai</a>
+                                            <a href={"mailto: "+email}>{email}</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -26,12 +36,12 @@ class Footer extends Component {
                                     <h3>Acesso rápido</h3>
                                     <ul className="footer-quick-links">
                                         <li>
-                                            <Link href="/#">
+                                            <Link href="/sobre">
                                                 <a>Quem Somos</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <a href="https://api.whatsapp.com/send?phone=555198668926&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F" target='_blank'>Contato</a>
+                                            <a href={"https://api.whatsapp.com/send?phone="+phone+"&text=Ol%C3%A1!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Greenmotor%3F"} target='_blank'>Contato</a>
                                         </li>
                                     </ul>
                                 </div>
