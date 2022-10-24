@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 import eduImage from '../../images/eduPhoto.png';
+import nichoImage from '../../images/nichoPhoto.png';
 import rodrigoImage from '../../images/rodrigoPhoto.png';
 import luizImage from '../../images/luizPhoto.png';
 import azimutImage from '../../images/azimutPhoto.png';
@@ -19,12 +20,14 @@ class OurTeam extends Component {
                             <br />
                             <br />
                             <br />
-                            <h2 className='text-color-white'>Sobre os C-Levels</h2>
+                            <h2 className='text-color-white'>C-Levels</h2>
                         </div>
                         <div className='flex-about-us'>
                             <div className="col-lg-3 col-md-12">
-                                <div className='sobre-nos'>
-                                    <Image src={eduImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
+                                <div className='sobre-nos padding-alligner'>
+                                    <Image width={200} height={200} src={eduImage} alt="Foto do fundador Eduardo Kautz"/>
+                                    <br />
+                                    <br />
                                     <br />
                                     <h1 className='text-color-white text-margin-top'>EDU <br /> KAUTZ</h1>
                                     <br />
@@ -48,7 +51,7 @@ class OurTeam extends Component {
                             </div>
                             <div className="col-lg-3 col-md-12">
                                 <div className='sobre-nos'>
-                                    <Image src={luizImage} alt="Foto do co-fundador Rodrigo Villa" />
+                                    <Image src={luizImage} alt="Foto do CTO Luiz Rossi" />
                                     <h1 className='text-color-white text-margin-top' >LUIZ LONGHI ROSSI</h1>
                                     <br />
                                     <h2 className='text-color-white'>CTO</h2>
@@ -57,7 +60,29 @@ class OurTeam extends Component {
                                     <Image src={starLearningPhoto} alt="Logo da Azimut" />
                                     <br />
                                     <br />
-                                    {/* <Image src={cognitivaPhoto} alt="Logo da Azimut" /> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="team-area ptb-100 pb-70 pt-0 bg-black">
+                    <div className="container">
+                        <div className="section-title sobre-nos center-everything">
+                            <br />
+                            <br />
+                            <br />
+                            <h2 className='text-color-white'>Conselho de Tecnologia</h2>
+                        </div>
+                        <div className='flex-about-us'>
+                            <div className="col-lg-3 col-md-12">
+                                <div className='sobre-nos'>
+                                    <Image width={195} height={195} src={nichoImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
+                                    <br />
+                                    <h1 className='text-color-white text-margin-top'>NICHOLAS <br />KLUGE CORRÊA</h1>
+                                    <br />
+                                    <p className='text-color-white'>Mestre em Engenharia Elétrica pela PUC-RS. Candidato a Ph.D pela PUC-RS e Rheinische Friedrich-Wilhelms-Universität Bonn (Alemanha).  Pesquisador na área de Machine Learning (ML) com foco em Ética, Fairness, Explainability, e Adversarial ML. Presidente da AI Robotics Ethics Society na PUC-RS.</p>
+                                    {/* <Image src={playDeliveryImage} alt="Logo da PlayDelivery" /> */}
                                 </div>
                             </div>
                         </div>
