@@ -82,9 +82,19 @@ class OurTeam extends Component {
                                     <h1 className='text-color-white text-margin-top'>NICHOLAS <br />KLUGE CORRÊA</h1>
                                     <br />
                                     <p className='text-color-white'>Mestre em Engenharia Elétrica pela PUC-RS. Candidato a Ph.D pela PUC-RS e Rheinische Friedrich-Wilhelms-Universität Bonn (Alemanha).  Pesquisador na área de Machine Learning (ML) com foco em Ética, Fairness, Explainability, e Adversarial ML. Presidente da AI Robotics Ethics Society na PUC-RS.</p>
-                                    {/* <Image src={playDeliveryImage} alt="Logo da PlayDelivery" /> */}
                                 </div>
                             </div>
+
+                            <div className="col-lg-3 col-md-12">
+                                <div className='sobre-nos'>
+                                    <Image width={195} height={195} src={nichoImage} alt="Foto do fundador Eduardo Kautz" className='founder-image-padding' />
+                                    <br />
+                                    <h1 className='text-color-white text-margin-top'>LEONARDO <br />ROSA AMADO</h1>
+                                    <br />
+                                    <p className='text-color-white'>Doutor em Ciência da Computação pela PUC-RS. Pesquisador de pós-doutorado no centro de ciência de dados da PUCRS. Pesquisador ativo em Machine Learning, Automated Planning e Reinforcement Learning.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
