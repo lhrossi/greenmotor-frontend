@@ -10425,6 +10425,13 @@ Meu CSS
   justify-items: center;
 }
 
+.sobre-nos-2-col {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 5rem;
+}
+
 .center-everything {
   text-align: center;
   justify-items: center;
